@@ -1,0 +1,44 @@
+{
+  "trust": [
+    {
+      "desc": "开户成功",
+      "expect_msg": "UserRegister OK"
+    }
+  ],
+  "trust_code": [
+    {
+      "desc": "随机整数",
+      "random": "12312312",
+      "response_code": 200
+    },
+    {
+      "desc": "随机小数",
+      "random": "0.12312312",
+      "response_code": 200
+    },
+    {
+      "desc": "随机数为空",
+      "random": "",
+      "response_code": 404
+    },
+    {
+      "desc": "随机整数为字符串",
+      "random": "sdfsdfkwek",
+      "response_code": 400
+    }
+  ],
+  "trust_recharge": [
+    {
+      "desc": "充值成功",
+      "amount": "100",
+      "valicode": 8888,
+      "expect_msg":"NetSave OK"
+    },
+    {
+      "desc": "充值失败（验证码错误）",
+      "amount": "100",
+      "valicode": 8889,
+      "expect_msg":"验证码错误"
+    }
+  ]
+}

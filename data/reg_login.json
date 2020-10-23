@@ -1,0 +1,179 @@
+{
+  "img_code": [
+    {
+      "desc": "获取图片 验证码成功（随机整数）",
+      "random": "1122320012",
+      "response_code": 200
+    },
+    {
+      "desc": "获取图片 验证码成功（随机小数）",
+      "random": "0.11223420012",
+      "response_code": 200
+    },
+    {
+      "desc": "获取图片 验证码失败（为空）",
+      "random": "",
+      "response_code": 404
+    },
+    {
+      "desc": "获取图片 验证码失败（字符串）",
+      "random": "hellop2p",
+      "response_code": 400
+    }
+  ],
+  "phone_code": [
+    {
+      "desc": "注册·获手机验证码成功",
+      "phone": "13600001111",
+      "imgVerifyCode": "8888",
+      "response_code": 200,
+      "status_code": 200,
+      "expect_msg": "短信发送成功"
+    },{
+      "desc": "注册·获手机验证码失败（图片验证码错误）",
+      "phone": "13600001111",
+      "imgVerifyCode": "8889",
+      "response_code": 200,
+      "status_code": 100,
+      "expect_msg": "图片验证码错误"
+    },
+    {
+      "desc": "注册·获手机验证码失败（手机号为空）",
+      "phone": "",
+      "imgVerifyCode": "8888",
+      "response_code": 200,
+      "status_code": 100,
+      "expect_msg": null
+    },
+    {
+      "desc": "注册·获手机验证码失败（图片验证码为空）",
+      "phone": "13600001111",
+      "imgVerifyCode": "",
+      "response_code": 200,
+      "status_code": 100,
+      "expect_msg": "图片验证码错误"
+    }
+  ],
+  "register": [
+    {
+      "desc": "注册·成功(必填参数)",
+      "phone": "13600001111",
+      "password": "test12345",
+      "verifycode": "8888",
+      "phone_code": "666666",
+      "dy_server": "on",
+      "invite_phone": null,
+      "response_code": 200,
+      "status_code": 200,
+      "expect_msg": "注册成功"
+    },{
+      "desc": "注册·成功(全部填参数)",
+      "phone": "13600001112",
+      "password": "test12345",
+      "verifycode": "8888",
+      "phone_code": "666666",
+      "dy_server": "on",
+      "invite_phone": "13600001111",
+      "response_code": 200,
+      "status_code": 200,
+      "expect_msg": "注册成功"
+    },{
+      "desc": "注册·失败(图片验证码错误)",
+      "phone": "13600001113",
+      "password": "test12345",
+      "verifycode": "8889",
+      "phone_code": "666666",
+      "dy_server": "on",
+      "invite_phone": null,
+      "response_code": 200,
+      "status_code": 100,
+      "expect_msg": "验证码错误!"
+    },{
+      "desc": "注册·失败(短信验证码错误)",
+      "phone": "13600001113",
+      "password": "test12345",
+      "verifycode": "8888",
+      "phone_code": "666667",
+      "dy_server": "on",
+      "invite_phone": null,
+      "response_code": 200,
+      "status_code": 100,
+      "expect_msg": "验证码错误"
+    },{
+      "desc": "注册·失败(手机号已存在)",
+      "phone": "13600001111",
+      "password": "test12345",
+      "verifycode": "8888",
+      "phone_code": "666666",
+      "dy_server": "on",
+      "invite_phone": null,
+      "response_code": 200,
+      "status_code": 100,
+      "expect_msg": "手机已存在!"
+    },{
+      "desc": "注册·失败(密码为空) --bug",
+      "phone": "13600001113",
+      "password": "",
+      "verifycode": "8888",
+      "phone_code": "666666",
+      "dy_server": "on",
+      "invite_phone": null,
+      "response_code": 200,
+      "status_code": 200,
+      "expect_msg": "注册成功"
+    },{
+      "desc": "注册·失败(未同意条款) --bug)",
+      "phone": "13600001114",
+      "password": "test12345",
+      "verifycode": "8888",
+      "phone_code": "666666",
+      "dy_server": "on",
+      "invite_phone": null,
+      "response_code": 200,
+      "status_code": 200,
+      "expect_msg": "注册成功"
+    }
+  ],
+  "login": [
+    {
+      "desc": "登录成功",
+      "keywords": "13600001111",
+      "password": "test12345",
+      "response_code": 200,
+      "status_code": 200,
+      "expect_msg": "登录成功"
+    },
+    {
+      "desc": "登录失败（用户不存在）",
+      "keywords": "13600001116",
+      "password": "test12345",
+      "response_code": 200,
+      "status_code": 100,
+      "expect_msg": "用户不存在"
+    },
+    {
+      "desc": "登录失败（错误次数）锁定60秒登录成功",
+      "keywords": "13600001111",
+      "password": "error",
+      "response_code": 200,
+      "status_code": 200,
+      "expect_msg": "登录成功"
+    }
+  ],
+  "is_login": [
+    {
+      "desc": "已登录",
+      "is_login": "已登录",
+      "response_code": 200,
+      "status_code": 200,
+      "expect_msg": "OK"
+    },
+    {
+      "desc": "未登录",
+      "is_login": "未登录",
+      "response_code": 200,
+      "status_code": 250,
+      "expect_msg": "您未登陆！"
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1603269264452" stop="1603269327764">
+  <name>scripts</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1603269264452" status="passed" stop="1603269264575">
+      <name>test01_register_login.TestRegisterLogin.test01_reg_img_0_1122320012</name>
+      <attachments>
+        <attachment source="378fcb37-4221-4572-90a4-7edaa0b17dd2-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269264577" status="passed" stop="1603269264678">
+      <name>test01_register_login.TestRegisterLogin.test01_reg_img_1_0_11223420012</name>
+      <attachments>
+        <attachment source="7bf75245-fc77-4d86-be14-77ee87c41c6d-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269264679" status="passed" stop="1603269264755">
+      <name>test01_register_login.TestRegisterLogin.test01_reg_img_2_</name>
+      <attachments>
+        <attachment source="67d8284c-47a2-4a48-9381-09764ab320c9-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269264756" status="passed" stop="1603269264832">
+      <name>test01_register_login.TestRegisterLogin.test01_reg_img_3_hellop2p</name>
+      <attachments>
+        <attachment source="060282ec-43d8-4dc1-ba15-32c2bb703c76-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269264833" status="passed" stop="1603269264957">
+      <name>test01_register_login.TestRegisterLogin.test02_reg_phone_0_13600001111</name>
+      <attachments>
+        <attachment source="b56466e6-6e2c-41af-a94c-5fe31336489d-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269264959" status="passed" stop="1603269265080">
+      <name>test01_register_login.TestRegisterLogin.test02_reg_phone_1_13600001111</name>
+      <attachments>
+        <attachment source="c7fafb82-2506-4626-b3b9-7971f8481500-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269265082" status="passed" stop="1603269265195">
+      <name>test01_register_login.TestRegisterLogin.test02_reg_phone_2_</name>
+      <attachments>
+        <attachment source="35647808-f916-4111-93d3-b4eb069216eb-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269265196" status="passed" stop="1603269265310">
+      <name>test01_register_login.TestRegisterLogin.test02_reg_phone_3_13600001111</name>
+      <attachments>
+        <attachment source="eeaa0c95-4c13-4d39-b352-0f3b56e03b6b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269265311" status="passed" stop="1603269265495">
+      <name>test01_register_login.TestRegisterLogin.test03_register_0_13600001111</name>
+      <attachments>
+        <attachment source="653b060b-131e-421e-a602-06cc307e24af-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269265496" status="passed" stop="1603269265678">
+      <name>test01_register_login.TestRegisterLogin.test03_register_1_13600001112</name>
+      <attachments>
+        <attachment source="1a7760c9-24cb-4141-b701-fda44dcb3a32-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269265679" status="passed" stop="1603269265827">
+      <name>test01_register_login.TestRegisterLogin.test03_register_2_13600001113</name>
+      <attachments>
+        <attachment source="bf1d1218-f140-482a-b2e0-8bac2ab9c01a-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269265828" status="passed" stop="1603269265989">
+      <name>test01_register_login.TestRegisterLogin.test03_register_3_13600001113</name>
+      <attachments>
+        <attachment source="1f6dc4f2-f872-4139-9128-dc1ef00b5a68-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269265990" status="passed" stop="1603269266164">
+      <name>test01_register_login.TestRegisterLogin.test03_register_4_13600001111</name>
+      <attachments>
+        <attachment source="33642f19-e3ab-4a90-afa3-b571d30d1839-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269266165" status="passed" stop="1603269266337">
+      <name>test01_register_login.TestRegisterLogin.test03_register_5_13600001113</name>
+      <attachments>
+        <attachment source="5d4b1c9b-ffac-47cd-bc09-0b0109b470e0-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269266339" status="passed" stop="1603269266509">
+      <name>test01_register_login.TestRegisterLogin.test03_register_6_13600001114</name>
+      <attachments>
+        <attachment source="81485903-8541-4300-b621-d550b261c0eb-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269266510" status="passed" stop="1603269266596">
+      <name>test01_register_login.TestRegisterLogin.test04_login_0_13600001111</name>
+      <attachments>
+        <attachment source="f5740569-e344-4360-8dac-4f56b23eec65-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269266597" status="passed" stop="1603269266673">
+      <name>test01_register_login.TestRegisterLogin.test04_login_1_13600001116</name>
+      <attachments>
+        <attachment source="ef9c6ad2-b8e4-430d-bad5-7aa63c12e877-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269266674" status="passed" stop="1603269326908">
+      <name>test01_register_login.TestRegisterLogin.test04_login_2_13600001111</name>
+      <attachments>
+        <attachment source="35d3e783-1e02-4db0-8e83-e443edc158d1-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269326909" status="passed" stop="1603269327033">
+      <name>test01_register_login.TestRegisterLogin.test05_is_login_0__</name>
+      <attachments>
+        <attachment source="b323d859-a911-47b2-8d6f-80405c2bb520-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269327034" status="passed" stop="1603269327110">
+      <name>test01_register_login.TestRegisterLogin.test05_is_login_1__</name>
+      <attachments>
+        <attachment source="ffe2d3ac-e52f-4d73-8326-da850edf958b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269327111" status="passed" stop="1603269327248">
+      <name>test02_approve.TestApprove.test01_approve_0__</name>
+      <attachments>
+        <attachment source="5b5aa577-7a08-4dee-a37f-dc86f38ec698-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269327249" status="passed" stop="1603269327376">
+      <name>test02_approve.TestApprove.test01_approve_1_</name>
+      <attachments>
+        <attachment source="003e2aaf-2f2e-4aed-aac0-0c0c20e287de-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269327377" status="passed" stop="1603269327509">
+      <name>test02_approve.TestApprove.test01_approve_2__</name>
+      <attachments>
+        <attachment source="db61ed62-59a3-4bd7-bcd5-46f0e8e18f03-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269327510" status="passed" stop="1603269327631">
+      <name>test02_approve.TestApprove.test02_get_approve_0_13600001111</name>
+      <attachments>
+        <attachment source="02d9caa6-8d0c-416e-bc1b-6844d090fa4e-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603269327632" status="passed" stop="1603269327764">
+      <name>test02_approve.TestApprove.test02_get_approve_1_13600001112</name>
+      <attachments>
+        <attachment source="c8f4cae9-cf1c-480a-be79-1dbfb78475b9-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="69911-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

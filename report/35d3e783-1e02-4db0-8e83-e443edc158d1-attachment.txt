@@ -1,0 +1,13 @@
+test01_register_login.py    22 INFO     正在调用初始化方法
+test01_register_login.py    25 INFO     正在获取session对象 <requests.sessions.Session object at 0x10e304c88>
+api_register_login.py       11 INFO     正在初始化 session对象：<requests.sessions.Session object at 0x10e304c88>
+test01_register_login.py    28 INFO     正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10e304278>
+api_register_login.py       66 INFO     正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'error'}
+test01_register_login.py    83 INFO     登录密码错误次数验证：第 1次，响应状态码结果：{'status': 100, 'data': {'login_error': 2}, 'description': '密码错误1次,达到3次将锁定账户'}
+api_register_login.py       66 INFO     正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'error'}
+test01_register_login.py    83 INFO     登录密码错误次数验证：第 2次，响应状态码结果：{'status': 100, 'data': {'login_error': 3}, 'description': '密码错误2次,达到3次将锁定账户'}
+api_register_login.py       66 INFO     正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'error'}
+test01_register_login.py    83 INFO     登录密码错误次数验证：第 3次，响应状态码结果：{'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+api_register_login.py       66 INFO     正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+test01_register_login.py    91 INFO     锁定60秒解锁后，登录结果：{'status': 200, 'description': '登录成功'}
+test01_register_login.py    32 INFO     正在执行关闭session对象

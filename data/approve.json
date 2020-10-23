@@ -1,0 +1,43 @@
+{
+  "approve": [
+    {
+      "desc": "认证成功",
+      "realname": "张三",
+      "card_id": "110101199004064676",
+      "response_code": 200,
+      "status_code": 200,
+      "expect_msg": "提交成功!"
+    },
+    {
+      "desc": "认证失败姓名为空--bug",
+      "realname": "",
+      "card_id": "110101199004064676",
+      "response_code": 200,
+      "status_code": 200,
+      "expect_msg": "提交成功!"
+    },
+    {
+      "desc": "认证失败(身份证为空)--bug",
+      "realname": "张三",
+      "card_id": "",
+      "response_code": 200,
+      "status_code": 200,
+      "expect_msg": "提交成功!"
+    }
+
+  ],
+  "get_approve": [
+    {
+      "desc": "已认证",
+      "login_name": "13600001111",
+      "response_code": 200,
+      "phone_4": "1111"
+    },
+    {
+      "desc": "未认证",
+      "login_name": "13600001112",
+      "response_code": 200,
+      "phone_4": null
+    }
+  ]
+}
