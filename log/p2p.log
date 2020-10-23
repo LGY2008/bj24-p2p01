@@ -818,3 +818,785 @@
 2020-10-23 11:28:47,424 INFO [root] [test04_tender.py (test03_reg_tender:102] - 业务方法-三方充值结果为：NetSave OK
 2020-10-23 11:28:47,473 INFO [root] [tools.py (html_parser:146] - 提取的url为：http://52.83.181.187:8000/muser/publicRequests
 2020-10-23 11:28:47,640 INFO [root] [test04_tender.py (test03_reg_tender:109] - 业务方法-三方投资结果为：InitiativeTender OK
+2020-10-23 11:47:30,306 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:47:30,307 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('1122320012', 200), ('0.11223420012', 200), ('', 404), ('hellop2p', 400)]
+2020-10-23 11:47:30,372 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:47:30,373 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('13600001111', '8888', 200, 200, '短信发送成功'), ('13600001111', '8889', 200, 100, '图片验证码错误'), ('', '8888', 200, 100, None), ('13600001111', '', 200, 100, '图片验证码错误')]
+2020-10-23 11:47:30,379 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:47:30,379 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('13600001111', 'test12345', '8888', '666666', 'on', None, 200, 200, '注册成功'), ('13600001112', 'test12345', '8888', '666666', 'on', '13600001111', 200, 200, '注册成功'), ('13600001113', 'test12345', '8889', '666666', 'on', None, 200, 100, '验证码错误!'), ('13600001113', 'test12345', '8888', '666667', 'on', None, 200, 100, '验证码错误'), ('13600001111', 'test12345', '8888', '666666', 'on', None, 200, 100, '手机已存在!'), ('13600001113', '', '8888', '666666', 'on', None, 200, 200, '注册成功'), ('13600001114', 'test12345', '8888', '666666', 'on', None, 200, 200, '注册成功')]
+2020-10-23 11:47:30,385 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:47:30,385 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('13600001111', 'test12345', 200, 200, '登录成功'), ('13600001116', 'test12345', 200, 100, '用户不存在'), ('13600001111', 'error', 200, 200, '登录成功')]
+2020-10-23 11:47:30,391 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:47:30,391 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('已登录', 200, 200, 'OK'), ('未登录', 200, 250, '您未登陆！')]
+2020-10-23 11:47:30,401 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:47:30,402 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('张三', '110101199004064676', 200, 200, '提交成功!'), ('', '110101199004064676', 200, 200, '提交成功!'), ('张三', '', 200, 200, '提交成功!')]
+2020-10-23 11:47:30,411 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:47:30,411 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('13600001111', 200, '1111'), ('13600001112', 200, None)]
+2020-10-23 11:47:30,418 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:47:30,418 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('UserRegister OK',)]
+2020-10-23 11:47:30,426 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:47:30,427 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('12312312', 200), ('0.12312312', 200), ('', 404), ('sdfsdfkwek', 400)]
+2020-10-23 11:47:30,433 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:47:30,433 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('100', 8888, 'NetSave OK'), ('100', 8889, '验证码错误')]
+2020-10-23 11:47:30,440 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:47:30,441 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('642', 100, 'InitiativeTender OK'), ('642', '', '不是正确的金额')]
+2020-10-23 11:47:30,448 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:47:30,448 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('642',)]
+2020-10-23 11:47:30,455 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:47:30,455 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[(12312334, '13600001115', '8888', '666666', 'test123456', 'on', None, 100, '642', 'InitiativeTender OK')]
+2020-10-23 11:47:31,331 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:47:31,331 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c040240>
+2020-10-23 11:47:31,331 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c040240>
+2020-10-23 11:47:31,331 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c040898>
+2020-10-23 11:47:31,331 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/1122320012
+2020-10-23 11:47:31,432 INFO [root] [test01_register_login.py (test01_reg_img:44] - 正在调用 注册图片验证码接口测试方法，响应状态码结果：200
+2020-10-23 11:47:31,449 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:47:31,449 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:47:31,450 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c0555c0>
+2020-10-23 11:47:31,450 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c0555c0>
+2020-10-23 11:47:31,450 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c0559b0>
+2020-10-23 11:47:31,450 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.11223420012
+2020-10-23 11:47:31,533 INFO [root] [test01_register_login.py (test01_reg_img:44] - 正在调用 注册图片验证码接口测试方法，响应状态码结果：200
+2020-10-23 11:47:31,553 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:47:31,553 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:47:31,553 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c0408d0>
+2020-10-23 11:47:31,553 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c0408d0>
+2020-10-23 11:47:31,553 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c055940>
+2020-10-23 11:47:31,553 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/
+2020-10-23 11:47:31,629 INFO [root] [test01_register_login.py (test01_reg_img:44] - 正在调用 注册图片验证码接口测试方法，响应状态码结果：404
+2020-10-23 11:47:31,629 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:47:31,630 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:47:31,630 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c055c88>
+2020-10-23 11:47:31,630 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c055c88>
+2020-10-23 11:47:31,630 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c055eb8>
+2020-10-23 11:47:31,630 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/hellop2p
+2020-10-23 11:47:31,709 INFO [root] [test01_register_login.py (test01_reg_img:44] - 正在调用 注册图片验证码接口测试方法，响应状态码结果：400
+2020-10-23 11:47:31,709 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:47:31,709 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:47:31,710 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c0559e8>
+2020-10-23 11:47:31,710 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c0559e8>
+2020-10-23 11:47:31,710 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c07a390>
+2020-10-23 11:47:31,710 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.8408179183162147
+2020-10-23 11:47:31,784 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:47:31,831 INFO [root] [test01_register_login.py (test02_reg_phone:59] - 正在调用 注册手机验证码接口测试方法，响应状态码结果：{'status': 200, 'description': '短信发送成功'}
+2020-10-23 11:47:31,832 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:47:31,832 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:47:31,832 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c07a3c8>
+2020-10-23 11:47:31,832 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c07a3c8>
+2020-10-23 11:47:31,832 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c07ad68>
+2020-10-23 11:47:31,833 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.24525447576055415
+2020-10-23 11:47:31,909 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001111', 'imgVerifyCode': '8889', 'type': 'reg'}
+2020-10-23 11:47:31,947 INFO [root] [test01_register_login.py (test02_reg_phone:59] - 正在调用 注册手机验证码接口测试方法，响应状态码结果：{'status': 100, 'description': '图片验证码错误'}
+2020-10-23 11:47:31,947 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:47:31,948 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:47:31,948 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c07a518>
+2020-10-23 11:47:31,948 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c07a518>
+2020-10-23 11:47:31,948 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c07a1d0>
+2020-10-23 11:47:31,948 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.5175407305783197
+2020-10-23 11:47:32,021 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:47:32,058 INFO [root] [test01_register_login.py (test02_reg_phone:59] - 正在调用 注册手机验证码接口测试方法，响应状态码结果：{'status': 100}
+2020-10-23 11:47:32,059 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:47:32,059 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:47:32,059 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c07a7f0>
+2020-10-23 11:47:32,059 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c07a7f0>
+2020-10-23 11:47:32,060 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c07a358>
+2020-10-23 11:47:32,060 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.8133700588071543
+2020-10-23 11:47:32,142 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001111', 'imgVerifyCode': '', 'type': 'reg'}
+2020-10-23 11:47:32,184 INFO [root] [test01_register_login.py (test02_reg_phone:59] - 正在调用 注册手机验证码接口测试方法，响应状态码结果：{'status': 100, 'description': '图片验证码错误'}
+2020-10-23 11:47:32,184 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:47:32,184 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:47:32,185 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c07a748>
+2020-10-23 11:47:32,185 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c07a748>
+2020-10-23 11:47:32,185 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10da83198>
+2020-10-23 11:47:33,189 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.2854814581391516
+2020-10-23 11:47:33,275 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:47:33,328 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001111', 'password': 'test12345', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2020-10-23 11:47:33,392 INFO [root] [test01_register_login.py (test03_register:74] - 注册接口请求的数据为：['13600001111', 'test12345', '8888', '666666', 'on', None]
+2020-10-23 11:47:33,392 INFO [root] [test01_register_login.py (test03_register:76] - 注册结果为：{"status":200,"data":{"isLogin":"1"},"description":"注册成功"}
+2020-10-23 11:47:33,392 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:47:33,392 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:47:33,393 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c07a588>
+2020-10-23 11:47:33,393 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c07a588>
+2020-10-23 11:47:33,393 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10da83710>
+2020-10-23 11:47:34,397 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.8829554696027843
+2020-10-23 11:47:34,482 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001112', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:47:34,534 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001112', 'password': 'test12345', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': '13600001111'}
+2020-10-23 11:47:34,603 INFO [root] [test01_register_login.py (test03_register:74] - 注册接口请求的数据为：['13600001112', 'test12345', '8888', '666666', 'on', '13600001111']
+2020-10-23 11:47:34,604 INFO [root] [test01_register_login.py (test03_register:76] - 注册结果为：{"status":200,"data":{"isLogin":"1"},"description":"注册成功"}
+2020-10-23 11:47:34,604 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:47:34,604 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:47:34,604 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10da83748>
+2020-10-23 11:47:34,604 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10da83748>
+2020-10-23 11:47:34,605 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10da83e10>
+2020-10-23 11:47:35,609 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.6358592214848401
+2020-10-23 11:47:35,694 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001113', 'imgVerifyCode': '8889', 'type': 'reg'}
+2020-10-23 11:47:35,735 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001113', 'password': 'test12345', 'verifycode': '8889', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2020-10-23 11:47:35,776 INFO [root] [test01_register_login.py (test03_register:74] - 注册接口请求的数据为：['13600001113', 'test12345', '8889', '666666', 'on', None]
+2020-10-23 11:47:35,776 INFO [root] [test01_register_login.py (test03_register:76] - 注册结果为：{"status":100,"description":"验证码错误!"}
+2020-10-23 11:47:35,777 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:47:35,777 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:47:35,777 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10da83be0>
+2020-10-23 11:47:35,777 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10da83be0>
+2020-10-23 11:47:35,777 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10da83ef0>
+2020-10-23 11:47:36,781 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.2364987154802357
+2020-10-23 11:47:36,856 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001113', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:47:36,903 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001113', 'password': 'test12345', 'verifycode': '8888', 'phone_code': '666667', 'dy_server': 'on', 'invite_phone': None}
+2020-10-23 11:47:36,940 INFO [root] [test01_register_login.py (test03_register:74] - 注册接口请求的数据为：['13600001113', 'test12345', '8888', '666667', 'on', None]
+2020-10-23 11:47:36,940 INFO [root] [test01_register_login.py (test03_register:76] - 注册结果为：{"status":100,"description":"验证码错误"}
+2020-10-23 11:47:36,940 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:47:36,941 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:47:36,941 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10da83ba8>
+2020-10-23 11:47:36,941 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10da83ba8>
+2020-10-23 11:47:36,941 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10da83978>
+2020-10-23 11:47:37,943 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.9805256017924275
+2020-10-23 11:47:38,021 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:47:38,071 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001111', 'password': 'test12345', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2020-10-23 11:47:38,111 INFO [root] [test01_register_login.py (test03_register:74] - 注册接口请求的数据为：['13600001111', 'test12345', '8888', '666666', 'on', None]
+2020-10-23 11:47:38,111 INFO [root] [test01_register_login.py (test03_register:76] - 注册结果为：{"status":100,"description":"手机已存在!"}
+2020-10-23 11:47:38,111 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:47:38,112 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:47:38,112 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10da83a20>
+2020-10-23 11:47:38,112 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10da83a20>
+2020-10-23 11:47:38,112 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10da90198>
+2020-10-23 11:47:39,114 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.2820315930313232
+2020-10-23 11:47:39,193 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001113', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:47:39,253 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001113', 'password': '', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2020-10-23 11:47:39,314 INFO [root] [test01_register_login.py (test03_register:74] - 注册接口请求的数据为：['13600001113', '', '8888', '666666', 'on', None]
+2020-10-23 11:47:39,315 INFO [root] [test01_register_login.py (test03_register:76] - 注册结果为：{"status":200,"data":{"isLogin":"1"},"description":"注册成功"}
+2020-10-23 11:47:39,315 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:47:39,315 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:47:39,315 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10da908d0>
+2020-10-23 11:47:39,315 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10da908d0>
+2020-10-23 11:47:39,315 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10da90c50>
+2020-10-23 11:47:40,320 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.791962499196661
+2020-10-23 11:47:40,407 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001114', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:47:40,460 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001114', 'password': 'test12345', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2020-10-23 11:47:40,523 INFO [root] [test01_register_login.py (test03_register:74] - 注册接口请求的数据为：['13600001114', 'test12345', '8888', '666666', 'on', None]
+2020-10-23 11:47:40,524 INFO [root] [test01_register_login.py (test03_register:76] - 注册结果为：{"status":200,"data":{"isLogin":"1"},"description":"注册成功"}
+2020-10-23 11:47:40,524 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:47:40,524 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:47:40,524 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10da90a20>
+2020-10-23 11:47:40,524 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10da90a20>
+2020-10-23 11:47:40,524 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10da905c0>
+2020-10-23 11:47:40,524 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:47:40,616 INFO [root] [test01_register_login.py (test04_login:101] - 正在调用 登录接口测试方法，响应状态码结果：{'status': 200, 'description': '登录成功'}
+2020-10-23 11:47:40,616 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:47:40,616 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:47:40,617 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10da90b38>
+2020-10-23 11:47:40,617 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10da90b38>
+2020-10-23 11:47:40,617 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10da90f28>
+2020-10-23 11:47:40,617 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001116', 'password': 'test12345'}
+2020-10-23 11:47:40,698 INFO [root] [test01_register_login.py (test04_login:101] - 正在调用 登录接口测试方法，响应状态码结果：{'status': 100, 'description': '用户不存在'}
+2020-10-23 11:47:40,698 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:47:40,698 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:47:40,699 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10da900b8>
+2020-10-23 11:47:40,699 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10da900b8>
+2020-10-23 11:47:40,699 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10da980b8>
+2020-10-23 11:47:40,699 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'error'}
+2020-10-23 11:47:40,779 INFO [root] [test01_register_login.py (test04_login:88] - 登录密码错误次数验证：第 1次，响应状态码结果：{'status': 100, 'data': {'login_error': 2}, 'description': '密码错误1次,达到3次将锁定账户'}
+2020-10-23 11:47:40,780 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'error'}
+2020-10-23 11:47:40,823 INFO [root] [test01_register_login.py (test04_login:88] - 登录密码错误次数验证：第 2次，响应状态码结果：{'status': 100, 'data': {'login_error': 3}, 'description': '密码错误2次,达到3次将锁定账户'}
+2020-10-23 11:47:40,823 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'error'}
+2020-10-23 11:47:40,871 INFO [root] [test01_register_login.py (test04_login:88] - 登录密码错误次数验证：第 3次，响应状态码结果：{'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2020-10-23 11:48:40,872 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:48:40,935 INFO [root] [test01_register_login.py (test04_login:96] - 锁定60秒解锁后，登录结果：{'status': 200, 'description': '登录成功'}
+2020-10-23 11:48:40,935 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:48:40,935 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:48:40,935 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10da98080>
+2020-10-23 11:48:40,935 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10da98080>
+2020-10-23 11:48:40,935 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10da98eb8>
+2020-10-23 11:48:40,935 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:48:41,020 INFO [root] [api_register_login.py (api_is_login:72] - 正在调用查询登录状态接口 url：http://user-p2p-test.itheima.net/member/public/sendSms
+2020-10-23 11:48:41,060 INFO [root] [test01_register_login.py (test05_is_login:114] - 正在调用 是否登录接口 测试方法，响应状态码结果：{'status': 200, 'description': 'OK'}
+2020-10-23 11:48:41,060 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:48:41,061 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:48:41,061 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10da98b38>
+2020-10-23 11:48:41,061 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10da98b38>
+2020-10-23 11:48:41,061 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10da98048>
+2020-10-23 11:48:41,061 INFO [root] [api_register_login.py (api_is_login:72] - 正在调用查询登录状态接口 url：http://user-p2p-test.itheima.net/member/public/sendSms
+2020-10-23 11:48:41,136 INFO [root] [test01_register_login.py (test05_is_login:114] - 正在调用 是否登录接口 测试方法，响应状态码结果：{'status': 250, 'description': '您未登陆！'}
+2020-10-23 11:48:41,136 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:48:41,136 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10b62e780>
+2020-10-23 11:48:41,136 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:48:41,259 INFO [root] [test02_approve.py (test01_approve:33] - 认证结果为：{'status': 200, 'data': {'card_id': '110****676', 'realname': '张**'}, 'description': '提交成功!'}
+2020-10-23 11:48:41,260 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10da98cc0>
+2020-10-23 11:48:41,260 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:48:41,393 INFO [root] [test02_approve.py (test01_approve:33] - 认证结果为：{'status': 200, 'data': {'card_id': '110****676', 'realname': '张**'}, 'description': '提交成功!'}
+2020-10-23 11:48:41,393 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10da98e10>
+2020-10-23 11:48:41,394 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:48:41,526 INFO [root] [test02_approve.py (test01_approve:33] - 认证结果为：{'status': 200, 'data': {'card_id': '110****676', 'realname': '张**'}, 'description': '提交成功!'}
+2020-10-23 11:48:41,527 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10daa9a58>
+2020-10-23 11:48:41,527 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:48:41,663 INFO [root] [test02_approve.py (test02_get_approve:45] - 认证查询结果为：{'is_email_open': '-1', 'lastlogin_time': '1603424933', 'group_status': '', 'is_auth_user': '-1', 'is_realname_open': '2', 'is_corp': '-1', 'business_license': '', 'card_id': '110****676', 'realname': '张**', 'isCert': '2', 'realname_card': '1', 'pay_pwd': '', 'phone': '136****1111', 'realname_status': '-2', 'trustType': 'chinapnr', 'pwd': '1', 'email': '', 'is_trust': '-1'}
+2020-10-23 11:48:41,664 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10da98c88>
+2020-10-23 11:48:41,664 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001112', 'password': 'test12345'}
+2020-10-23 11:48:41,787 INFO [root] [test02_approve.py (test02_get_approve:45] - 认证查询结果为：{'is_email_open': '-1', 'lastlogin_time': '1603424866', 'group_status': '', 'is_auth_user': '-1', 'is_realname_open': '2', 'is_corp': '-1', 'business_license': '', 'realname_remark': '', 'card_id': '', 'realname': '', 'isCert': '2', 'realname_card': '1', 'pay_pwd': '', 'phone': '136****1112', 'realname_status': '', 'trustType': 'chinapnr', 'pwd': '1', 'email': '', 'is_trust': '-1'}
+2020-10-23 11:48:41,787 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x102a577f0>
+2020-10-23 11:48:41,787 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:48:41,873 INFO [root] [test03_trust.py (test01_trust:31] - 开户参数化 expect_msc的值为：UserRegister OK
+2020-10-23 11:48:41,918 INFO [root] [test03_trust.py (test01_trust:34] - 开户结果：{'status': 200, 'description': {'form': "<form name='easypaysubmit' id='easypaysubmit' target='_blank' method='post' action='http://52.83.181.187:8000/muser/publicRequests'><input name='Version' type='hidden' value='10'/><input name='CmdId' type='hidden' value='UserRegister'/><input name='MerCustId' type='hidden' value='6000060007313892'/><input name='BgRetUrl' type='hidden' value='https://www.baidu.com/'/><input name='RetUrl' type='hidden' value='http://user-p2p-test.itheima.net/trust/chinapnr/register/return/20102311485386073459'/><input name='UsrId' type='hidden' value=''/><input name='UsrName' type='hidden' value=''/><input name='IdType' type='hidden' value='00'/><input name='IdNo' type='hidden' value='110101199004064676'/><input name='UsrMp' type='hidden' value='13600001111'/><input name='UsrEmail' type='hidden' value=''/><input name='MerPriv' type='hidden' value='20102311485386073459'/><input name='ChkValue' type='hidden' value='-101'/><input name='CharSet' type='hidden' value='UTF-8'/></form><script>document.forms['easypaysubmit'].submit();</script>"}}
+2020-10-23 11:48:41,920 INFO [root] [tools.py (html_parser:146] - 提取的url为：http://52.83.181.187:8000/muser/publicRequests
+2020-10-23 11:48:41,921 INFO [root] [test03_trust.py (test01_trust:37] - 提取开户三方请求数据结果：('http://52.83.181.187:8000/muser/publicRequests', {'Version': '10', 'CmdId': 'UserRegister', 'MerCustId': '6000060007313892', 'BgRetUrl': 'https://www.baidu.com/', 'RetUrl': 'http://user-p2p-test.itheima.net/trust/chinapnr/register/return/20102311485386073459', 'UsrId': '', 'UsrName': '', 'IdType': '00', 'IdNo': '110101199004064676', 'UsrMp': '13600001111', 'UsrEmail': '', 'MerPriv': '20102311485386073459', 'ChkValue': '-101', 'CharSet': 'UTF-8'})
+2020-10-23 11:48:42,124 INFO [root] [test03_trust.py (test01_trust:40] - 三方开户请求结果：UserRegister OK
+2020-10-23 11:48:42,124 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10dab6198>
+2020-10-23 11:48:42,124 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:48:42,272 INFO [root] [test03_trust.py (test02_trust_code:49] - 充值验证码返回响应状态码为：200
+2020-10-23 11:48:42,272 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10dabfeb8>
+2020-10-23 11:48:42,272 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:48:42,419 INFO [root] [test03_trust.py (test02_trust_code:49] - 充值验证码返回响应状态码为：200
+2020-10-23 11:48:42,420 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10daa9ba8>
+2020-10-23 11:48:42,420 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:48:42,554 INFO [root] [test03_trust.py (test02_trust_code:49] - 充值验证码返回响应状态码为：404
+2020-10-23 11:48:42,555 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10dabfb38>
+2020-10-23 11:48:42,555 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:48:42,680 INFO [root] [test03_trust.py (test02_trust_code:49] - 充值验证码返回响应状态码为：400
+2020-10-23 11:48:42,681 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10dabfc18>
+2020-10-23 11:48:42,681 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:48:42,856 INFO [root] [test03_trust.py (test03_trust_recharge:59] - 充值接口返回结果：{'status': 200, 'description': {'form': "<form name='easypaysubmit' id='easypaysubmit' target='_blank' method='post' action='http://52.83.181.187:8000/muser/publicRequests'><input name='Version' type='hidden' value='10'/><input name='CmdId' type='hidden' value='NetSave'/><input name='MerCustId' type='hidden' value='6000060007313892'/><input name='UsrCustId' type='hidden' value='6020201023114853'/><input name='OrdId' type='hidden' value='20102311485479474159'/><input name='OrdDate' type='hidden' value='20201023'/><input name='GateBusiId' type='hidden' value='B2C'/><input name='OpenBankId' type='hidden' value=''/><input name='DcFlag' type='hidden' value='D'/><input name='TransAmt' type='hidden' value='100.00'/><input name='RetUrl' type='hidden' value='http://user-p2p-test.itheima.net/trust/chinapnr/recharge/return/20102311485479474159'/><input name='BgRetUrl' type='hidden' value='https://www.baidu.com/'/><input name='OpenAcctId' type='hidden' value=''/><input name='CertId' type='hidden' value=''/><input name='MerPriv' type='hidden' value='904159'/><input name='ChkValue' type='hidden' value='-101'/><input name='CharSet' type='hidden' value='UTF-8'/></form><script>document.forms['easypaysubmit'].submit();</script>"}}
+2020-10-23 11:48:42,857 INFO [root] [tools.py (html_parser:146] - 提取的url为：http://52.83.181.187:8000/muser/publicRequests
+2020-10-23 11:48:42,858 INFO [root] [test03_trust.py (test03_trust_recharge:65] - 提取充值三方请求数据结果：('http://52.83.181.187:8000/muser/publicRequests', {'Version': '10', 'CmdId': 'NetSave', 'MerCustId': '6000060007313892', 'UsrCustId': '6020201023114853', 'OrdId': '20102311485479474159', 'OrdDate': '20201023', 'GateBusiId': 'B2C', 'OpenBankId': '', 'DcFlag': 'D', 'TransAmt': '100.00', 'RetUrl': 'http://user-p2p-test.itheima.net/trust/chinapnr/recharge/return/20102311485479474159', 'BgRetUrl': 'https://www.baidu.com/', 'OpenAcctId': '', 'CertId': '', 'MerPriv': '904159', 'ChkValue': '-101', 'CharSet': 'UTF-8'})
+2020-10-23 11:48:43,002 INFO [root] [test03_trust.py (test03_trust_recharge:68] - 三方充值结果：NetSave OK
+2020-10-23 11:48:43,003 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10dab6d30>
+2020-10-23 11:48:43,003 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:48:43,172 INFO [root] [test03_trust.py (test03_trust_recharge:59] - 充值接口返回结果：{'status': 100, 'description': '验证码错误'}
+2020-10-23 11:48:43,172 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c040080>
+2020-10-23 11:48:43,172 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:48:43,310 INFO [root] [tools.py (html_parser:146] - 提取的url为：http://52.83.181.187:8000/muser/publicRequests
+2020-10-23 11:48:43,483 INFO [root] [test04_tender.py (test01_tender:52] - 三方投资结果为：InitiativeTender OK
+2020-10-23 11:48:43,483 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10dad2358>
+2020-10-23 11:48:43,483 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:48:43,611 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10dab6828>
+2020-10-23 11:48:43,611 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:48:43,756 INFO [root] [test04_tender.py (test02_tender_list:63] - 投资列表结果为：{'recover_amount_yes_total': 0, 'isStartTime': 'yes', 'epage': 6, 'recover_amount_total': 0, 'recover_amount_wait_total': 0, 'page': 1, 'total_pages': 1, 'tender_amount_total': 100.0, 'items': [{'recover_status': '-1', 'voucher_amt': '0.00', 'recover_principal_yes': '0.00', 'tenderId': '1468', 'serialno': '202008231111', 'recover_amount': 0, 'recover_count': '0', 'recover_interest_yes': 0, 'transfer_member_name': '', 'cancel_count': '0', 'trust_status': '-2', 'auto_status': '-1', 'id': '1468', 'loan_name': '数据库构造借款1', 'recover_principal': '0.00', 'transfer_member_id': '0', 'ind': '20102311485524761159', 'loan_id': '642', 'member_id': '904159', 'award_interest': 0.0, 'amount': '100.00', 'status_name': '投标中', 'loan_member_id': '869', 'recover_prepayment_fee': '0.00', 'deposit_certificate': '-1', 'loan_member_name': '13099775533', 'transfer_status': '-1', 'member_name': '13600001111', 'recover_overdue_fee': '0.00', 'award_amount': '0.00', 'add_ip': '2130706433', 'recover_interest': '0.00', 'repay_type': '1', 'recover_count_yes': '0', 'add_time': '1603424935', 'recover_amount_yes': '0.00', 'loanId': '642', 'status': '-2'}], 'total_items': 1, 'isCert': '2'}
+2020-10-23 11:48:43,757 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10dad2898>
+2020-10-23 11:48:43,757 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:48:43,844 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10dad2898>
+2020-10-23 11:48:43,844 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/12312334
+2020-10-23 11:48:43,893 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10dad2898>
+2020-10-23 11:48:43,893 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001115', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:48:43,942 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10dad2898>
+2020-10-23 11:48:43,942 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001115', 'password': 'test123456', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2020-10-23 11:48:44,001 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10dad2898>
+2020-10-23 11:48:44,001 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001115', 'password': 'test123456'}
+2020-10-23 11:48:44,098 INFO [root] [tools.py (html_parser:146] - 提取的url为：http://52.83.181.187:8000/muser/publicRequests
+2020-10-23 11:48:44,250 INFO [root] [test04_tender.py (test03_reg_tender:93] - 业务方法-三方开户结果为：UserRegister OK
+2020-10-23 11:48:44,339 INFO [root] [tools.py (html_parser:146] - 提取的url为：http://52.83.181.187:8000/muser/publicRequests
+2020-10-23 11:48:44,486 INFO [root] [test04_tender.py (test03_reg_tender:102] - 业务方法-三方充值结果为：NetSave OK
+2020-10-23 11:48:44,535 INFO [root] [tools.py (html_parser:146] - 提取的url为：http://52.83.181.187:8000/muser/publicRequests
+2020-10-23 11:48:44,695 INFO [root] [test04_tender.py (test03_reg_tender:109] - 业务方法-三方投资结果为：InitiativeTender OK
+2020-10-23 11:56:50,593 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:56:50,594 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('1122320012', 200), ('0.11223420012', 200), ('', 404), ('hellop2p', 400)]
+2020-10-23 11:56:50,651 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:56:50,651 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('13600001111', '8888', 200, 200, '短信发送成功'), ('13600001111', '8889', 200, 100, '图片验证码错误'), ('', '8888', 200, 100, None), ('13600001111', '', 200, 100, '图片验证码错误')]
+2020-10-23 11:56:50,657 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:56:50,657 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('13600001111', 'test12345', '8888', '666666', 'on', None, 200, 200, '注册成功'), ('13600001112', 'test12345', '8888', '666666', 'on', '13600001111', 200, 200, '注册成功'), ('13600001113', 'test12345', '8889', '666666', 'on', None, 200, 100, '验证码错误!'), ('13600001113', 'test12345', '8888', '666667', 'on', None, 200, 100, '验证码错误'), ('13600001111', 'test12345', '8888', '666666', 'on', None, 200, 100, '手机已存在!'), ('13600001113', '', '8888', '666666', 'on', None, 200, 200, '注册成功'), ('13600001114', 'test12345', '8888', '666666', 'on', None, 200, 200, '注册成功')]
+2020-10-23 11:56:50,663 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:56:50,663 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('13600001111', 'test12345', 200, 200, '登录成功'), ('13600001116', 'test12345', 200, 100, '用户不存在'), ('13600001111', 'error', 200, 200, '登录成功')]
+2020-10-23 11:56:50,668 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:56:50,668 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('已登录', 200, 200, 'OK'), ('未登录', 200, 250, '您未登陆！')]
+2020-10-23 11:56:50,677 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:56:50,678 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('张三', '110101199004064676', 200, 200, '提交成功!'), ('', '110101199004064676', 200, 200, '提交成功!'), ('张三', '', 200, 200, '提交成功!')]
+2020-10-23 11:56:50,685 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:56:50,685 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('13600001111', 200, '1111'), ('13600001112', 200, None)]
+2020-10-23 11:56:50,692 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:56:50,693 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('UserRegister OK',)]
+2020-10-23 11:56:50,700 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:56:50,700 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('12312312', 200), ('0.12312312', 200), ('', 404), ('sdfsdfkwek', 400)]
+2020-10-23 11:56:50,706 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:56:50,706 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('100', 8888, 'NetSave OK'), ('100', 8889, '验证码错误')]
+2020-10-23 11:56:50,712 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:56:50,712 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('642', 100, 'InitiativeTender OK'), ('642', '', '不是正确的金额')]
+2020-10-23 11:56:50,720 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:56:50,720 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('642',)]
+2020-10-23 11:56:50,726 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:56:50,726 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[(12312334, '13600001115', '8888', '666666', 'test123456', 'on', None, 100, '642', 'InitiativeTender OK')]
+2020-10-23 11:56:51,559 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:56:51,559 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10d468470>
+2020-10-23 11:56:51,560 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d468470>
+2020-10-23 11:56:51,560 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10d468a20>
+2020-10-23 11:56:51,560 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/1122320012
+2020-10-23 11:56:51,657 INFO [root] [test01_register_login.py (test01_reg_img:44] - 正在调用 注册图片验证码接口测试方法，响应状态码结果：200
+2020-10-23 11:56:51,677 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:56:51,677 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:56:51,678 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10d47e860>
+2020-10-23 11:56:51,678 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d47e860>
+2020-10-23 11:56:51,678 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10d47e898>
+2020-10-23 11:56:51,678 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.11223420012
+2020-10-23 11:56:51,755 INFO [root] [test01_register_login.py (test01_reg_img:44] - 正在调用 注册图片验证码接口测试方法，响应状态码结果：200
+2020-10-23 11:56:51,773 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:56:51,773 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:56:51,773 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10d468080>
+2020-10-23 11:56:51,773 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d468080>
+2020-10-23 11:56:51,773 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10d47ebe0>
+2020-10-23 11:56:51,773 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/
+2020-10-23 11:56:51,844 INFO [root] [test01_register_login.py (test01_reg_img:44] - 正在调用 注册图片验证码接口测试方法，响应状态码结果：404
+2020-10-23 11:56:51,845 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:56:51,845 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:56:51,845 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10d47ef98>
+2020-10-23 11:56:51,845 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d47ef98>
+2020-10-23 11:56:51,845 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10d47eb38>
+2020-10-23 11:56:51,846 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/hellop2p
+2020-10-23 11:56:51,917 INFO [root] [test01_register_login.py (test01_reg_img:44] - 正在调用 注册图片验证码接口测试方法，响应状态码结果：400
+2020-10-23 11:56:51,917 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:56:51,918 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:56:51,918 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10d4a02b0>
+2020-10-23 11:56:51,918 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d4a02b0>
+2020-10-23 11:56:51,918 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10d4a09b0>
+2020-10-23 11:56:51,918 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.1758513617157189
+2020-10-23 11:56:51,996 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:56:52,046 INFO [root] [test01_register_login.py (test02_reg_phone:59] - 正在调用 注册手机验证码接口测试方法，响应状态码结果：{'status': 200, 'description': '短信发送成功'}
+2020-10-23 11:56:52,047 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:56:52,047 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:56:52,047 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10d4a0470>
+2020-10-23 11:56:52,048 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d4a0470>
+2020-10-23 11:56:52,048 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10d4a0f28>
+2020-10-23 11:56:52,048 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.5287663114090909
+2020-10-23 11:56:52,130 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001111', 'imgVerifyCode': '8889', 'type': 'reg'}
+2020-10-23 11:56:52,172 INFO [root] [test01_register_login.py (test02_reg_phone:59] - 正在调用 注册手机验证码接口测试方法，响应状态码结果：{'status': 100, 'description': '图片验证码错误'}
+2020-10-23 11:56:52,173 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:56:52,173 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:56:52,173 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10d4a0630>
+2020-10-23 11:56:52,173 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d4a0630>
+2020-10-23 11:56:52,173 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10d4a0080>
+2020-10-23 11:56:52,174 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.6604172269463429
+2020-10-23 11:56:52,255 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:56:52,296 INFO [root] [test01_register_login.py (test02_reg_phone:59] - 正在调用 注册手机验证码接口测试方法，响应状态码结果：{'status': 100}
+2020-10-23 11:56:52,297 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:56:52,297 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:56:52,297 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10d4a0048>
+2020-10-23 11:56:52,297 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d4a0048>
+2020-10-23 11:56:52,297 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10d4a0eb8>
+2020-10-23 11:56:52,297 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.7433509540831319
+2020-10-23 11:56:52,380 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001111', 'imgVerifyCode': '', 'type': 'reg'}
+2020-10-23 11:56:52,421 INFO [root] [test01_register_login.py (test02_reg_phone:59] - 正在调用 注册手机验证码接口测试方法，响应状态码结果：{'status': 100, 'description': '图片验证码错误'}
+2020-10-23 11:56:52,422 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:56:52,422 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:56:52,422 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c82d5c0>
+2020-10-23 11:56:52,422 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c82d5c0>
+2020-10-23 11:56:52,422 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10d5697f0>
+2020-10-23 11:56:53,426 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.5602308287671107
+2020-10-23 11:56:53,505 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:56:53,555 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001111', 'password': 'test12345', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2020-10-23 11:56:53,615 INFO [root] [test01_register_login.py (test03_register:74] - 注册接口请求的数据为：['13600001111', 'test12345', '8888', '666666', 'on', None]
+2020-10-23 11:56:53,615 INFO [root] [test01_register_login.py (test03_register:76] - 注册结果为：{"status":200,"data":{"isLogin":"1"},"description":"注册成功"}
+2020-10-23 11:56:53,616 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:56:53,616 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:56:53,616 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10d4a0748>
+2020-10-23 11:56:53,616 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d4a0748>
+2020-10-23 11:56:53,616 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10d569588>
+2020-10-23 11:56:54,620 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.07198191078207927
+2020-10-23 11:56:54,700 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001112', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:56:54,747 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001112', 'password': 'test12345', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': '13600001111'}
+2020-10-23 11:56:54,808 INFO [root] [test01_register_login.py (test03_register:74] - 注册接口请求的数据为：['13600001112', 'test12345', '8888', '666666', 'on', '13600001111']
+2020-10-23 11:56:54,809 INFO [root] [test01_register_login.py (test03_register:76] - 注册结果为：{"status":200,"data":{"isLogin":"1"},"description":"注册成功"}
+2020-10-23 11:56:54,809 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:56:54,809 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:56:54,809 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10d569940>
+2020-10-23 11:56:54,810 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d569940>
+2020-10-23 11:56:54,810 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10d569630>
+2020-10-23 11:56:55,815 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.6579876322601208
+2020-10-23 11:56:55,888 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001113', 'imgVerifyCode': '8889', 'type': 'reg'}
+2020-10-23 11:56:55,924 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001113', 'password': 'test12345', 'verifycode': '8889', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2020-10-23 11:56:55,961 INFO [root] [test01_register_login.py (test03_register:74] - 注册接口请求的数据为：['13600001113', 'test12345', '8889', '666666', 'on', None]
+2020-10-23 11:56:55,961 INFO [root] [test01_register_login.py (test03_register:76] - 注册结果为：{"status":100,"description":"验证码错误!"}
+2020-10-23 11:56:55,961 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:56:55,962 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:56:55,962 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10d5692e8>
+2020-10-23 11:56:55,962 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d5692e8>
+2020-10-23 11:56:55,962 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10d569518>
+2020-10-23 11:56:56,965 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.7175517900509131
+2020-10-23 11:56:57,040 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001113', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:56:57,087 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001113', 'password': 'test12345', 'verifycode': '8888', 'phone_code': '666667', 'dy_server': 'on', 'invite_phone': None}
+2020-10-23 11:56:57,125 INFO [root] [test01_register_login.py (test03_register:74] - 注册接口请求的数据为：['13600001113', 'test12345', '8888', '666667', 'on', None]
+2020-10-23 11:56:57,126 INFO [root] [test01_register_login.py (test03_register:76] - 注册结果为：{"status":100,"description":"验证码错误"}
+2020-10-23 11:56:57,126 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:56:57,126 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:56:57,126 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10d569b38>
+2020-10-23 11:56:57,127 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d569b38>
+2020-10-23 11:56:57,127 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10d577080>
+2020-10-23 11:56:58,129 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.11667308227874162
+2020-10-23 11:56:58,211 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:56:58,261 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001111', 'password': 'test12345', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2020-10-23 11:56:58,302 INFO [root] [test01_register_login.py (test03_register:74] - 注册接口请求的数据为：['13600001111', 'test12345', '8888', '666666', 'on', None]
+2020-10-23 11:56:58,302 INFO [root] [test01_register_login.py (test03_register:76] - 注册结果为：{"status":100,"description":"手机已存在!"}
+2020-10-23 11:56:58,302 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:56:58,302 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:56:58,303 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10d577198>
+2020-10-23 11:56:58,303 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d577198>
+2020-10-23 11:56:58,303 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10d577a90>
+2020-10-23 11:56:59,305 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.16070460642623552
+2020-10-23 11:56:59,391 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001113', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:56:59,442 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001113', 'password': '', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2020-10-23 11:56:59,505 INFO [root] [test01_register_login.py (test03_register:74] - 注册接口请求的数据为：['13600001113', '', '8888', '666666', 'on', None]
+2020-10-23 11:56:59,505 INFO [root] [test01_register_login.py (test03_register:76] - 注册结果为：{"status":200,"data":{"isLogin":"1"},"description":"注册成功"}
+2020-10-23 11:56:59,505 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:56:59,505 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:56:59,506 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10d577860>
+2020-10-23 11:56:59,506 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d577860>
+2020-10-23 11:56:59,506 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10d577e10>
+2020-10-23 11:57:00,506 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.09419468042738499
+2020-10-23 11:57:00,587 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001114', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:57:00,637 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001114', 'password': 'test12345', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2020-10-23 11:57:00,698 INFO [root] [test01_register_login.py (test03_register:74] - 注册接口请求的数据为：['13600001114', 'test12345', '8888', '666666', 'on', None]
+2020-10-23 11:57:00,699 INFO [root] [test01_register_login.py (test03_register:76] - 注册结果为：{"status":200,"data":{"isLogin":"1"},"description":"注册成功"}
+2020-10-23 11:57:00,699 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:57:00,699 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:57:00,699 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10d577be0>
+2020-10-23 11:57:00,699 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d577be0>
+2020-10-23 11:57:00,700 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10d577ef0>
+2020-10-23 11:57:00,700 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:57:00,808 INFO [root] [test01_register_login.py (test04_login:102] - 正在调用 登录接口测试方法，响应状态码结果：{'status': 200, 'description': '登录成功'}
+2020-10-23 11:57:00,809 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:57:00,809 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:57:00,809 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10d577ba8>
+2020-10-23 11:57:00,809 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d577ba8>
+2020-10-23 11:57:00,809 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10d577dd8>
+2020-10-23 11:57:00,810 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001116', 'password': 'test12345'}
+2020-10-23 11:57:00,887 INFO [root] [test01_register_login.py (test04_login:102] - 正在调用 登录接口测试方法，响应状态码结果：{'status': 100, 'description': '用户不存在'}
+2020-10-23 11:57:00,887 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:57:00,887 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:57:00,887 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10d577e80>
+2020-10-23 11:57:00,887 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d577e80>
+2020-10-23 11:57:00,887 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10d5812b0>
+2020-10-23 11:57:00,888 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:57:00,888 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:57:00,888 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10d581160>
+2020-10-23 11:57:00,888 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d581160>
+2020-10-23 11:57:00,888 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10d5816a0>
+2020-10-23 11:57:00,888 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:57:00,976 INFO [root] [api_register_login.py (api_is_login:72] - 正在调用查询登录状态接口 url：http://user-p2p-test.itheima.net/member/public/sendSms
+2020-10-23 11:57:01,014 INFO [root] [test01_register_login.py (test05_is_login:115] - 正在调用 是否登录接口 测试方法，响应状态码结果：{'status': 200, 'description': 'OK'}
+2020-10-23 11:57:01,014 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:57:01,015 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:57:01,015 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10d581780>
+2020-10-23 11:57:01,015 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d581780>
+2020-10-23 11:57:01,015 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10d5812e8>
+2020-10-23 11:57:01,015 INFO [root] [api_register_login.py (api_is_login:72] - 正在调用查询登录状态接口 url：http://user-p2p-test.itheima.net/member/public/sendSms
+2020-10-23 11:57:01,095 INFO [root] [test01_register_login.py (test05_is_login:115] - 正在调用 是否登录接口 测试方法，响应状态码结果：{'status': 250, 'description': '您未登陆！'}
+2020-10-23 11:57:01,096 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:57:01,096 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d4a0278>
+2020-10-23 11:57:01,096 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:57:01,230 INFO [root] [test02_approve.py (test01_approve:33] - 认证结果为：{'status': 200, 'data': {'card_id': '110****676', 'realname': '张**'}, 'description': '提交成功!'}
+2020-10-23 11:57:01,230 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d581f28>
+2020-10-23 11:57:01,231 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:57:01,369 INFO [root] [test02_approve.py (test01_approve:33] - 认证结果为：{'status': 200, 'data': {'card_id': '110****676', 'realname': '张**'}, 'description': '提交成功!'}
+2020-10-23 11:57:01,369 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d5819b0>
+2020-10-23 11:57:01,369 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:57:01,506 INFO [root] [test02_approve.py (test01_approve:33] - 认证结果为：{'status': 200, 'data': {'card_id': '110****676', 'realname': '张**'}, 'description': '提交成功!'}
+2020-10-23 11:57:01,507 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d5912b0>
+2020-10-23 11:57:01,507 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:57:01,632 INFO [root] [test02_approve.py (test02_get_approve:45] - 认证查询结果为：{'is_email_open': '-1', 'lastlogin_time': '1603425433', 'group_status': '', 'is_auth_user': '-1', 'is_realname_open': '2', 'is_corp': '-1', 'business_license': '', 'card_id': '110****676', 'realname': '张**', 'isCert': '2', 'realname_card': '1', 'pay_pwd': '', 'phone': '136****1111', 'realname_status': '-2', 'trustType': 'chinapnr', 'pwd': '1', 'email': '', 'is_trust': '-1'}
+2020-10-23 11:57:01,633 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d581c88>
+2020-10-23 11:57:01,633 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001112', 'password': 'test12345'}
+2020-10-23 11:57:01,759 INFO [root] [test02_approve.py (test02_get_approve:45] - 认证查询结果为：{'is_email_open': '-1', 'lastlogin_time': '1603425426', 'group_status': '', 'is_auth_user': '-1', 'is_realname_open': '2', 'is_corp': '-1', 'business_license': '', 'realname_remark': '', 'card_id': '', 'realname': '', 'isCert': '2', 'realname_card': '1', 'pay_pwd': '', 'phone': '136****1112', 'realname_status': '', 'trustType': 'chinapnr', 'pwd': '1', 'email': '', 'is_trust': '-1'}
+2020-10-23 11:57:01,760 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x102c647f0>
+2020-10-23 11:57:01,760 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:57:01,843 INFO [root] [test03_trust.py (test01_trust:31] - 开户参数化 expect_msc的值为：UserRegister OK
+2020-10-23 11:57:01,888 INFO [root] [test03_trust.py (test01_trust:34] - 开户结果：{'status': 200, 'description': {'form': "<form name='easypaysubmit' id='easypaysubmit' target='_blank' method='post' action='http://52.83.181.187:8000/muser/publicRequests'><input name='Version' type='hidden' value='10'/><input name='CmdId' type='hidden' value='UserRegister'/><input name='MerCustId' type='hidden' value='6000060007313892'/><input name='BgRetUrl' type='hidden' value='https://www.baidu.com/'/><input name='RetUrl' type='hidden' value='http://user-p2p-test.itheima.net/trust/chinapnr/register/return/20102311571383578064'/><input name='UsrId' type='hidden' value=''/><input name='UsrName' type='hidden' value=''/><input name='IdType' type='hidden' value='00'/><input name='IdNo' type='hidden' value='110101199004064676'/><input name='UsrMp' type='hidden' value='13600001111'/><input name='UsrEmail' type='hidden' value=''/><input name='MerPriv' type='hidden' value='20102311571383578064'/><input name='ChkValue' type='hidden' value='-101'/><input name='CharSet' type='hidden' value='UTF-8'/></form><script>document.forms['easypaysubmit'].submit();</script>"}}
+2020-10-23 11:57:01,890 INFO [root] [tools.py (html_parser:146] - 提取的url为：http://52.83.181.187:8000/muser/publicRequests
+2020-10-23 11:57:01,891 INFO [root] [test03_trust.py (test01_trust:37] - 提取开户三方请求数据结果：('http://52.83.181.187:8000/muser/publicRequests', {'Version': '10', 'CmdId': 'UserRegister', 'MerCustId': '6000060007313892', 'BgRetUrl': 'https://www.baidu.com/', 'RetUrl': 'http://user-p2p-test.itheima.net/trust/chinapnr/register/return/20102311571383578064', 'UsrId': '', 'UsrName': '', 'IdType': '00', 'IdNo': '110101199004064676', 'UsrMp': '13600001111', 'UsrEmail': '', 'MerPriv': '20102311571383578064', 'ChkValue': '-101', 'CharSet': 'UTF-8'})
+2020-10-23 11:57:02,049 INFO [root] [test03_trust.py (test01_trust:40] - 三方开户请求结果：UserRegister OK
+2020-10-23 11:57:02,050 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d4a0e48>
+2020-10-23 11:57:02,050 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:57:02,200 INFO [root] [test03_trust.py (test02_trust_code:49] - 充值验证码返回响应状态码为：200
+2020-10-23 11:57:02,200 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d5a8d68>
+2020-10-23 11:57:02,200 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:57:02,336 INFO [root] [test03_trust.py (test02_trust_code:49] - 充值验证码返回响应状态码为：200
+2020-10-23 11:57:02,336 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d5916d8>
+2020-10-23 11:57:02,336 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:57:02,463 INFO [root] [test03_trust.py (test02_trust_code:49] - 充值验证码返回响应状态码为：404
+2020-10-23 11:57:02,464 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d591b38>
+2020-10-23 11:57:02,464 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:57:02,598 INFO [root] [test03_trust.py (test02_trust_code:49] - 充值验证码返回响应状态码为：400
+2020-10-23 11:57:02,599 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d5a8320>
+2020-10-23 11:57:02,599 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:57:02,785 INFO [root] [test03_trust.py (test03_trust_recharge:59] - 充值接口返回结果：{'status': 200, 'description': {'form': "<form name='easypaysubmit' id='easypaysubmit' target='_blank' method='post' action='http://52.83.181.187:8000/muser/publicRequests'><input name='Version' type='hidden' value='10'/><input name='CmdId' type='hidden' value='NetSave'/><input name='MerCustId' type='hidden' value='6000060007313892'/><input name='UsrCustId' type='hidden' value='6020201023115713'/><input name='OrdId' type='hidden' value='20102311571473010064'/><input name='OrdDate' type='hidden' value='20201023'/><input name='GateBusiId' type='hidden' value='B2C'/><input name='OpenBankId' type='hidden' value=''/><input name='DcFlag' type='hidden' value='D'/><input name='TransAmt' type='hidden' value='100.00'/><input name='RetUrl' type='hidden' value='http://user-p2p-test.itheima.net/trust/chinapnr/recharge/return/20102311571473010064'/><input name='BgRetUrl' type='hidden' value='https://www.baidu.com/'/><input name='OpenAcctId' type='hidden' value=''/><input name='CertId' type='hidden' value=''/><input name='MerPriv' type='hidden' value='904164'/><input name='ChkValue' type='hidden' value='-101'/><input name='CharSet' type='hidden' value='UTF-8'/></form><script>document.forms['easypaysubmit'].submit();</script>"}}
+2020-10-23 11:57:02,787 INFO [root] [tools.py (html_parser:146] - 提取的url为：http://52.83.181.187:8000/muser/publicRequests
+2020-10-23 11:57:02,787 INFO [root] [test03_trust.py (test03_trust_recharge:65] - 提取充值三方请求数据结果：('http://52.83.181.187:8000/muser/publicRequests', {'Version': '10', 'CmdId': 'NetSave', 'MerCustId': '6000060007313892', 'UsrCustId': '6020201023115713', 'OrdId': '20102311571473010064', 'OrdDate': '20201023', 'GateBusiId': 'B2C', 'OpenBankId': '', 'DcFlag': 'D', 'TransAmt': '100.00', 'RetUrl': 'http://user-p2p-test.itheima.net/trust/chinapnr/recharge/return/20102311571473010064', 'BgRetUrl': 'https://www.baidu.com/', 'OpenAcctId': '', 'CertId': '', 'MerPriv': '904164', 'ChkValue': '-101', 'CharSet': 'UTF-8'})
+2020-10-23 11:57:02,938 INFO [root] [test03_trust.py (test03_trust_recharge:68] - 三方充值结果：NetSave OK
+2020-10-23 11:57:02,939 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d59ff60>
+2020-10-23 11:57:02,939 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:57:03,099 INFO [root] [test03_trust.py (test03_trust_recharge:59] - 充值接口返回结果：{'status': 100, 'description': '验证码错误'}
+2020-10-23 11:57:03,100 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d468278>
+2020-10-23 11:57:03,100 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:57:03,236 INFO [root] [tools.py (html_parser:146] - 提取的url为：http://52.83.181.187:8000/muser/publicRequests
+2020-10-23 11:57:03,409 INFO [root] [test04_tender.py (test01_tender:52] - 三方投资结果为：InitiativeTender OK
+2020-10-23 11:57:03,410 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d5bc4e0>
+2020-10-23 11:57:03,410 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:57:03,531 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d5a8048>
+2020-10-23 11:57:03,531 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:57:03,671 INFO [root] [test04_tender.py (test02_tender_list:63] - 投资列表结果为：{'recover_amount_yes_total': 0, 'isStartTime': 'yes', 'epage': 6, 'recover_amount_total': 0, 'recover_amount_wait_total': 0, 'page': 1, 'total_pages': 1, 'tender_amount_total': 100.0, 'items': [{'recover_status': '-1', 'voucher_amt': '0.00', 'recover_principal_yes': '0.00', 'tenderId': '1470', 'serialno': '202008231111', 'recover_amount': 0, 'recover_count': '0', 'recover_interest_yes': 0, 'transfer_member_name': '', 'cancel_count': '0', 'trust_status': '-2', 'auto_status': '-1', 'id': '1470', 'loan_name': '数据库构造借款1', 'recover_principal': '0.00', 'transfer_member_id': '0', 'ind': '20102311571517745164', 'loan_id': '642', 'member_id': '904164', 'award_interest': 0.0, 'amount': '100.00', 'status_name': '投标中', 'loan_member_id': '869', 'recover_prepayment_fee': '0.00', 'deposit_certificate': '-1', 'loan_member_name': '13099775533', 'transfer_status': '-1', 'member_name': '13600001111', 'recover_overdue_fee': '0.00', 'award_amount': '0.00', 'add_ip': '2130706433', 'recover_interest': '0.00', 'repay_type': '1', 'recover_count_yes': '0', 'add_time': '1603425435', 'recover_amount_yes': '0.00', 'loanId': '642', 'status': '-2'}], 'total_items': 1, 'isCert': '2'}
+2020-10-23 11:57:03,672 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d5bca20>
+2020-10-23 11:57:03,672 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:57:03,764 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d5bca20>
+2020-10-23 11:57:03,764 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/12312334
+2020-10-23 11:57:03,808 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d5bca20>
+2020-10-23 11:57:03,808 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001115', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:57:03,859 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d5bca20>
+2020-10-23 11:57:03,860 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001115', 'password': 'test123456', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2020-10-23 11:57:03,925 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10d5bca20>
+2020-10-23 11:57:03,925 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001115', 'password': 'test123456'}
+2020-10-23 11:57:04,026 INFO [root] [tools.py (html_parser:146] - 提取的url为：http://52.83.181.187:8000/muser/publicRequests
+2020-10-23 11:57:04,171 INFO [root] [test04_tender.py (test03_reg_tender:93] - 业务方法-三方开户结果为：UserRegister OK
+2020-10-23 11:57:04,266 INFO [root] [tools.py (html_parser:146] - 提取的url为：http://52.83.181.187:8000/muser/publicRequests
+2020-10-23 11:57:04,414 INFO [root] [test04_tender.py (test03_reg_tender:102] - 业务方法-三方充值结果为：NetSave OK
+2020-10-23 11:57:04,466 INFO [root] [tools.py (html_parser:146] - 提取的url为：http://52.83.181.187:8000/muser/publicRequests
+2020-10-23 11:57:04,632 INFO [root] [test04_tender.py (test03_reg_tender:109] - 业务方法-三方投资结果为：InitiativeTender OK
+2020-10-23 11:58:34,135 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:58:34,135 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('1122320012', 200), ('0.11223420012', 200), ('', 404), ('hellop2p', 400)]
+2020-10-23 11:58:34,181 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:58:34,182 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('13600001111', '8888', 200, 200, '短信发送成功'), ('13600001111', '8889', 200, 100, '图片验证码错误'), ('', '8888', 200, 100, None), ('13600001111', '', 200, 100, '图片验证码错误')]
+2020-10-23 11:58:34,187 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:58:34,187 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('13600001111', 'test12345', '8888', '666666', 'on', None, 200, 200, '注册成功'), ('13600001112', 'test12345', '8888', '666666', 'on', '13600001111', 200, 200, '注册成功'), ('13600001113', 'test12345', '8889', '666666', 'on', None, 200, 100, '验证码错误!'), ('13600001113', 'test12345', '8888', '666667', 'on', None, 200, 100, '验证码错误'), ('13600001111', 'test12345', '8888', '666666', 'on', None, 200, 100, '手机已存在!'), ('13600001113', '', '8888', '666666', 'on', None, 200, 200, '注册成功'), ('13600001114', 'test12345', '8888', '666666', 'on', None, 200, 200, '注册成功')]
+2020-10-23 11:58:34,192 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:58:34,193 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('13600001111', 'test12345', 200, 200, '登录成功'), ('13600001116', 'test12345', 200, 100, '用户不存在'), ('13600001111', 'error', 200, 200, '登录成功')]
+2020-10-23 11:58:34,198 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:58:34,198 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('已登录', 200, 200, 'OK'), ('未登录', 200, 250, '您未登陆！')]
+2020-10-23 11:58:34,204 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:58:34,204 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('张三', '110101199004064676', 200, 200, '提交成功!'), ('', '110101199004064676', 200, 200, '提交成功!'), ('张三', '', 200, 200, '提交成功!')]
+2020-10-23 11:58:34,210 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:58:34,211 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('13600001111', 200, '1111'), ('13600001112', 200, None)]
+2020-10-23 11:58:34,217 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:58:34,217 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('UserRegister OK',)]
+2020-10-23 11:58:34,223 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:58:34,223 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('12312312', 200), ('0.12312312', 200), ('', 404), ('sdfsdfkwek', 400)]
+2020-10-23 11:58:34,228 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:58:34,229 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('100', 8888, 'NetSave OK'), ('100', 8889, '验证码错误')]
+2020-10-23 11:58:34,235 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:58:34,235 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('642', 100, 'InitiativeTender OK'), ('642', '', '不是正确的金额')]
+2020-10-23 11:58:34,241 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:58:34,241 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[('642',)]
+2020-10-23 11:58:34,246 INFO [root] [tools.py (read_json:127] - 正在调用 读取json工具...
+2020-10-23 11:58:34,246 INFO [root] [tools.py (read_json:134] - ==》调用读取json工具结果为：《==[(12312334, '13600001115', '8888', '666666', 'test123456', 'on', None, 100, '642', 'InitiativeTender OK')]
+2020-10-23 11:58:35,115 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:58:35,115 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c85e860>
+2020-10-23 11:58:35,115 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c85e860>
+2020-10-23 11:58:35,116 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c85e9e8>
+2020-10-23 11:58:35,116 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/1122320012
+2020-10-23 11:58:35,214 INFO [root] [test01_register_login.py (test01_reg_img:44] - 正在调用 注册图片验证码接口测试方法，响应状态码结果：200
+2020-10-23 11:58:35,234 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:58:35,234 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:58:35,234 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c874668>
+2020-10-23 11:58:35,234 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c874668>
+2020-10-23 11:58:35,234 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c8749b0>
+2020-10-23 11:58:35,234 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.11223420012
+2020-10-23 11:58:35,309 INFO [root] [test01_register_login.py (test01_reg_img:44] - 正在调用 注册图片验证码接口测试方法，响应状态码结果：200
+2020-10-23 11:58:35,327 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:58:35,327 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:58:35,327 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c85ea20>
+2020-10-23 11:58:35,327 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c85ea20>
+2020-10-23 11:58:35,327 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c874978>
+2020-10-23 11:58:35,327 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/
+2020-10-23 11:58:35,403 INFO [root] [test01_register_login.py (test01_reg_img:44] - 正在调用 注册图片验证码接口测试方法，响应状态码结果：404
+2020-10-23 11:58:35,403 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:58:35,404 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:58:35,404 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c874748>
+2020-10-23 11:58:35,404 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c874748>
+2020-10-23 11:58:35,404 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c874c88>
+2020-10-23 11:58:35,404 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/hellop2p
+2020-10-23 11:58:35,480 INFO [root] [test01_register_login.py (test01_reg_img:44] - 正在调用 注册图片验证码接口测试方法，响应状态码结果：400
+2020-10-23 11:58:35,481 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:58:35,481 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:58:35,481 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c874a90>
+2020-10-23 11:58:35,481 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c874a90>
+2020-10-23 11:58:35,481 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c8e0390>
+2020-10-23 11:58:35,482 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.7020537584728124
+2020-10-23 11:58:35,560 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:58:35,609 INFO [root] [test01_register_login.py (test02_reg_phone:59] - 正在调用 注册手机验证码接口测试方法，响应状态码结果：{'status': 200, 'description': '短信发送成功'}
+2020-10-23 11:58:35,610 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:58:35,610 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:58:35,610 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c8e0320>
+2020-10-23 11:58:35,610 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c8e0320>
+2020-10-23 11:58:35,610 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c8e0d68>
+2020-10-23 11:58:35,611 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.3228956892993943
+2020-10-23 11:58:35,691 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001111', 'imgVerifyCode': '8889', 'type': 'reg'}
+2020-10-23 11:58:35,746 INFO [root] [test01_register_login.py (test02_reg_phone:59] - 正在调用 注册手机验证码接口测试方法，响应状态码结果：{'status': 100, 'description': '图片验证码错误'}
+2020-10-23 11:58:35,746 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:58:35,746 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:58:35,747 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c8e0470>
+2020-10-23 11:58:35,747 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c8e0470>
+2020-10-23 11:58:35,747 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c8e0b00>
+2020-10-23 11:58:35,747 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.9947255305118837
+2020-10-23 11:58:35,827 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:58:35,867 INFO [root] [test01_register_login.py (test02_reg_phone:59] - 正在调用 注册手机验证码接口测试方法，响应状态码结果：{'status': 100}
+2020-10-23 11:58:35,868 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:58:35,868 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:58:35,868 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c8e0eb8>
+2020-10-23 11:58:35,868 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c8e0eb8>
+2020-10-23 11:58:35,869 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c8e0fd0>
+2020-10-23 11:58:35,869 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.4249775346067659
+2020-10-23 11:58:35,949 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001111', 'imgVerifyCode': '', 'type': 'reg'}
+2020-10-23 11:58:35,988 INFO [root] [test01_register_login.py (test02_reg_phone:59] - 正在调用 注册手机验证码接口测试方法，响应状态码结果：{'status': 100, 'description': '图片验证码错误'}
+2020-10-23 11:58:35,988 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:58:35,989 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:58:35,989 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c8e0358>
+2020-10-23 11:58:35,989 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c8e0358>
+2020-10-23 11:58:35,989 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c8fb4e0>
+2020-10-23 11:58:36,991 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.11184036715431811
+2020-10-23 11:58:37,071 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:58:37,120 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001111', 'password': 'test12345', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2020-10-23 11:58:37,178 INFO [root] [test01_register_login.py (test03_register:74] - 注册接口请求的数据为：['13600001111', 'test12345', '8888', '666666', 'on', None]
+2020-10-23 11:58:37,178 INFO [root] [test01_register_login.py (test03_register:76] - 注册结果为：{"status":200,"data":{"isLogin":"1"},"description":"注册成功"}
+2020-10-23 11:58:37,178 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:58:37,179 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:58:37,179 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c8fb5f8>
+2020-10-23 11:58:37,179 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c8fb5f8>
+2020-10-23 11:58:37,179 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c8fbc18>
+2020-10-23 11:58:38,184 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.34108877766870505
+2020-10-23 11:58:38,264 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001112', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:58:38,312 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001112', 'password': 'test12345', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': '13600001111'}
+2020-10-23 11:58:38,373 INFO [root] [test01_register_login.py (test03_register:74] - 注册接口请求的数据为：['13600001112', 'test12345', '8888', '666666', 'on', '13600001111']
+2020-10-23 11:58:38,373 INFO [root] [test01_register_login.py (test03_register:76] - 注册结果为：{"status":200,"data":{"isLogin":"1"},"description":"注册成功"}
+2020-10-23 11:58:38,373 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:58:38,374 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:58:38,374 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c8e09e8>
+2020-10-23 11:58:38,374 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c8e09e8>
+2020-10-23 11:58:38,374 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c8fb9e8>
+2020-10-23 11:58:39,375 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.5953903594223424
+2020-10-23 11:58:39,461 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001113', 'imgVerifyCode': '8889', 'type': 'reg'}
+2020-10-23 11:58:39,502 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001113', 'password': 'test12345', 'verifycode': '8889', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2020-10-23 11:58:39,544 INFO [root] [test01_register_login.py (test03_register:74] - 注册接口请求的数据为：['13600001113', 'test12345', '8889', '666666', 'on', None]
+2020-10-23 11:58:39,544 INFO [root] [test01_register_login.py (test03_register:76] - 注册结果为：{"status":100,"description":"验证码错误!"}
+2020-10-23 11:58:39,544 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:58:39,545 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:58:39,545 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c8fb8d0>
+2020-10-23 11:58:39,545 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c8fb8d0>
+2020-10-23 11:58:39,545 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c8fb2b0>
+2020-10-23 11:58:40,548 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.34604330019763996
+2020-10-23 11:58:40,630 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001113', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:58:40,679 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001113', 'password': 'test12345', 'verifycode': '8888', 'phone_code': '666667', 'dy_server': 'on', 'invite_phone': None}
+2020-10-23 11:58:40,720 INFO [root] [test01_register_login.py (test03_register:74] - 注册接口请求的数据为：['13600001113', 'test12345', '8888', '666667', 'on', None]
+2020-10-23 11:58:40,720 INFO [root] [test01_register_login.py (test03_register:76] - 注册结果为：{"status":100,"description":"验证码错误"}
+2020-10-23 11:58:40,720 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:58:40,721 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:58:40,721 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c8fbd30>
+2020-10-23 11:58:40,721 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c8fbd30>
+2020-10-23 11:58:40,721 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c8fb978>
+2020-10-23 11:58:41,725 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.6190061839617659
+2020-10-23 11:58:41,807 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:58:41,856 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001111', 'password': 'test12345', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2020-10-23 11:58:41,896 INFO [root] [test01_register_login.py (test03_register:74] - 注册接口请求的数据为：['13600001111', 'test12345', '8888', '666666', 'on', None]
+2020-10-23 11:58:41,896 INFO [root] [test01_register_login.py (test03_register:76] - 注册结果为：{"status":100,"description":"手机已存在!"}
+2020-10-23 11:58:41,897 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:58:41,897 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:58:41,897 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c8fb828>
+2020-10-23 11:58:41,897 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c8fb828>
+2020-10-23 11:58:41,897 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c978710>
+2020-10-23 11:58:42,901 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.11672856756112493
+2020-10-23 11:58:42,982 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001113', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:58:43,031 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001113', 'password': '', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2020-10-23 11:58:43,092 INFO [root] [test01_register_login.py (test03_register:74] - 注册接口请求的数据为：['13600001113', '', '8888', '666666', 'on', None]
+2020-10-23 11:58:43,092 INFO [root] [test01_register_login.py (test03_register:76] - 注册结果为：{"status":200,"data":{"isLogin":"1"},"description":"注册成功"}
+2020-10-23 11:58:43,092 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:58:43,092 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:58:43,093 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c9782b0>
+2020-10-23 11:58:43,093 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c9782b0>
+2020-10-23 11:58:43,093 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c978c50>
+2020-10-23 11:58:44,097 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/0.7037546695490839
+2020-10-23 11:58:44,181 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001114', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:58:44,232 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001114', 'password': 'test12345', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2020-10-23 11:58:44,294 INFO [root] [test01_register_login.py (test03_register:74] - 注册接口请求的数据为：['13600001114', 'test12345', '8888', '666666', 'on', None]
+2020-10-23 11:58:44,294 INFO [root] [test01_register_login.py (test03_register:76] - 注册结果为：{"status":200,"data":{"isLogin":"1"},"description":"注册成功"}
+2020-10-23 11:58:44,295 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:58:44,295 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:58:44,295 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c9789e8>
+2020-10-23 11:58:44,296 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c9789e8>
+2020-10-23 11:58:44,296 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c978978>
+2020-10-23 11:58:44,296 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:58:44,389 INFO [root] [test01_register_login.py (test04_login:102] - 正在调用 登录接口测试方法，响应状态码结果：{'status': 200, 'description': '登录成功'}
+2020-10-23 11:58:44,389 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:58:44,389 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:58:44,389 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c978438>
+2020-10-23 11:58:44,390 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c978438>
+2020-10-23 11:58:44,390 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c978e10>
+2020-10-23 11:58:44,390 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001116', 'password': 'test12345'}
+2020-10-23 11:58:44,466 INFO [root] [test01_register_login.py (test04_login:102] - 正在调用 登录接口测试方法，响应状态码结果：{'status': 100, 'description': '用户不存在'}
+2020-10-23 11:58:44,467 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:58:44,467 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:58:44,467 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c9787f0>
+2020-10-23 11:58:44,468 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c9787f0>
+2020-10-23 11:58:44,468 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c98b2b0>
+2020-10-23 11:58:44,468 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:58:44,468 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:58:44,468 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c98b320>
+2020-10-23 11:58:44,468 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c98b320>
+2020-10-23 11:58:44,468 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c98b4e0>
+2020-10-23 11:58:44,469 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:58:44,555 INFO [root] [api_register_login.py (api_is_login:72] - 正在调用查询登录状态接口 url：http://user-p2p-test.itheima.net/member/public/sendSms
+2020-10-23 11:58:44,594 INFO [root] [test01_register_login.py (test05_is_login:115] - 正在调用 是否登录接口 测试方法，响应状态码结果：{'status': 200, 'description': 'OK'}
+2020-10-23 11:58:44,595 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:58:44,595 INFO [root] [test01_register_login.py (setUp:26] - 正在调用初始化方法
+2020-10-23 11:58:44,595 INFO [root] [test01_register_login.py (setUp:29] - 正在获取session对象 <requests.sessions.Session object at 0x10c98b5c0>
+2020-10-23 11:58:44,595 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c98b5c0>
+2020-10-23 11:58:44,596 INFO [root] [test01_register_login.py (setUp:32] - 正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10c98bf60>
+2020-10-23 11:58:44,596 INFO [root] [api_register_login.py (api_is_login:72] - 正在调用查询登录状态接口 url：http://user-p2p-test.itheima.net/member/public/sendSms
+2020-10-23 11:58:44,671 INFO [root] [test01_register_login.py (test05_is_login:115] - 正在调用 是否登录接口 测试方法，响应状态码结果：{'status': 250, 'description': '您未登陆！'}
+2020-10-23 11:58:44,671 INFO [root] [test01_register_login.py (tearDown:36] - 正在执行关闭session对象
+2020-10-23 11:58:44,672 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x103402ba8>
+2020-10-23 11:58:44,672 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:58:44,799 INFO [root] [test02_approve.py (test01_approve:33] - 认证结果为：{'status': 200, 'data': {'card_id': '110****676', 'realname': '张**'}, 'description': '提交成功!'}
+2020-10-23 11:58:44,800 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c98b898>
+2020-10-23 11:58:44,800 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:58:44,939 INFO [root] [test02_approve.py (test01_approve:33] - 认证结果为：{'status': 200, 'data': {'card_id': '110****676', 'realname': '张**'}, 'description': '提交成功!'}
+2020-10-23 11:58:44,940 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c98bdd8>
+2020-10-23 11:58:44,940 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:58:45,084 INFO [root] [test02_approve.py (test01_approve:33] - 认证结果为：{'status': 200, 'data': {'card_id': '110****676', 'realname': '张**'}, 'description': '提交成功!'}
+2020-10-23 11:58:45,085 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c99b9b0>
+2020-10-23 11:58:45,085 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:58:45,223 INFO [root] [test02_approve.py (test02_get_approve:45] - 认证查询结果为：{'is_email_open': '-1', 'lastlogin_time': '1603425536', 'group_status': '', 'is_auth_user': '-1', 'is_realname_open': '2', 'is_corp': '-1', 'business_license': '', 'card_id': '110****676', 'realname': '张**', 'isCert': '2', 'realname_card': '1', 'pay_pwd': '', 'phone': '136****1111', 'realname_status': '-2', 'trustType': 'chinapnr', 'pwd': '1', 'email': '', 'is_trust': '-1'}
+2020-10-23 11:58:45,224 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c98bac8>
+2020-10-23 11:58:45,224 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001112', 'password': 'test12345'}
+2020-10-23 11:58:45,355 INFO [root] [test02_approve.py (test02_get_approve:45] - 认证查询结果为：{'is_email_open': '-1', 'lastlogin_time': '1603425530', 'group_status': '', 'is_auth_user': '-1', 'is_realname_open': '2', 'is_corp': '-1', 'business_license': '', 'realname_remark': '', 'card_id': '', 'realname': '', 'isCert': '2', 'realname_card': '1', 'pay_pwd': '', 'phone': '136****1112', 'realname_status': '', 'trustType': 'chinapnr', 'pwd': '1', 'email': '', 'is_trust': '-1'}
+2020-10-23 11:58:45,356 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10bfa17b8>
+2020-10-23 11:58:45,356 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:58:45,437 INFO [root] [test03_trust.py (test01_trust:31] - 开户参数化 expect_msc的值为：UserRegister OK
+2020-10-23 11:58:45,484 INFO [root] [test03_trust.py (test01_trust:34] - 开户结果：{'status': 200, 'description': {'form': "<form name='easypaysubmit' id='easypaysubmit' target='_blank' method='post' action='http://52.83.181.187:8000/muser/publicRequests'><input name='Version' type='hidden' value='10'/><input name='CmdId' type='hidden' value='UserRegister'/><input name='MerCustId' type='hidden' value='6000060007313892'/><input name='BgRetUrl' type='hidden' value='https://www.baidu.com/'/><input name='RetUrl' type='hidden' value='http://user-p2p-test.itheima.net/trust/chinapnr/register/return/20102311585743166669'/><input name='UsrId' type='hidden' value=''/><input name='UsrName' type='hidden' value=''/><input name='IdType' type='hidden' value='00'/><input name='IdNo' type='hidden' value='110101199004064676'/><input name='UsrMp' type='hidden' value='13600001111'/><input name='UsrEmail' type='hidden' value=''/><input name='MerPriv' type='hidden' value='20102311585743166669'/><input name='ChkValue' type='hidden' value='-101'/><input name='CharSet' type='hidden' value='UTF-8'/></form><script>document.forms['easypaysubmit'].submit();</script>"}}
+2020-10-23 11:58:45,487 INFO [root] [tools.py (html_parser:146] - 提取的url为：http://52.83.181.187:8000/muser/publicRequests
+2020-10-23 11:58:45,487 INFO [root] [test03_trust.py (test01_trust:37] - 提取开户三方请求数据结果：('http://52.83.181.187:8000/muser/publicRequests', {'Version': '10', 'CmdId': 'UserRegister', 'MerCustId': '6000060007313892', 'BgRetUrl': 'https://www.baidu.com/', 'RetUrl': 'http://user-p2p-test.itheima.net/trust/chinapnr/register/return/20102311585743166669', 'UsrId': '', 'UsrName': '', 'IdType': '00', 'IdNo': '110101199004064676', 'UsrMp': '13600001111', 'UsrEmail': '', 'MerPriv': '20102311585743166669', 'ChkValue': '-101', 'CharSet': 'UTF-8'})
+2020-10-23 11:58:45,671 INFO [root] [test03_trust.py (test01_trust:40] - 三方开户请求结果：UserRegister OK
+2020-10-23 11:58:45,672 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c9ab128>
+2020-10-23 11:58:45,672 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:58:45,817 INFO [root] [test03_trust.py (test02_trust_code:49] - 充值验证码返回响应状态码为：200
+2020-10-23 11:58:45,818 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c9b1e80>
+2020-10-23 11:58:45,818 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:58:45,966 INFO [root] [test03_trust.py (test02_trust_code:49] - 充值验证码返回响应状态码为：200
+2020-10-23 11:58:45,967 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c99bf28>
+2020-10-23 11:58:45,967 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:58:46,104 INFO [root] [test03_trust.py (test02_trust_code:49] - 充值验证码返回响应状态码为：404
+2020-10-23 11:58:46,105 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c9b1c18>
+2020-10-23 11:58:46,105 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:58:46,239 INFO [root] [test03_trust.py (test02_trust_code:49] - 充值验证码返回响应状态码为：400
+2020-10-23 11:58:46,240 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c9b16a0>
+2020-10-23 11:58:46,240 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:58:46,430 INFO [root] [test03_trust.py (test03_trust_recharge:59] - 充值接口返回结果：{'status': 200, 'description': {'form': "<form name='easypaysubmit' id='easypaysubmit' target='_blank' method='post' action='http://52.83.181.187:8000/muser/publicRequests'><input name='Version' type='hidden' value='10'/><input name='CmdId' type='hidden' value='NetSave'/><input name='MerCustId' type='hidden' value='6000060007313892'/><input name='UsrCustId' type='hidden' value='6020201023115857'/><input name='OrdId' type='hidden' value='20102311585837574569'/><input name='OrdDate' type='hidden' value='20201023'/><input name='GateBusiId' type='hidden' value='B2C'/><input name='OpenBankId' type='hidden' value=''/><input name='DcFlag' type='hidden' value='D'/><input name='TransAmt' type='hidden' value='100.00'/><input name='RetUrl' type='hidden' value='http://user-p2p-test.itheima.net/trust/chinapnr/recharge/return/20102311585837574569'/><input name='BgRetUrl' type='hidden' value='https://www.baidu.com/'/><input name='OpenAcctId' type='hidden' value=''/><input name='CertId' type='hidden' value=''/><input name='MerPriv' type='hidden' value='904169'/><input name='ChkValue' type='hidden' value='-101'/><input name='CharSet' type='hidden' value='UTF-8'/></form><script>document.forms['easypaysubmit'].submit();</script>"}}
+2020-10-23 11:58:46,432 INFO [root] [tools.py (html_parser:146] - 提取的url为：http://52.83.181.187:8000/muser/publicRequests
+2020-10-23 11:58:46,432 INFO [root] [test03_trust.py (test03_trust_recharge:65] - 提取充值三方请求数据结果：('http://52.83.181.187:8000/muser/publicRequests', {'Version': '10', 'CmdId': 'NetSave', 'MerCustId': '6000060007313892', 'UsrCustId': '6020201023115857', 'OrdId': '20102311585837574569', 'OrdDate': '20201023', 'GateBusiId': 'B2C', 'OpenBankId': '', 'DcFlag': 'D', 'TransAmt': '100.00', 'RetUrl': 'http://user-p2p-test.itheima.net/trust/chinapnr/recharge/return/20102311585837574569', 'BgRetUrl': 'https://www.baidu.com/', 'OpenAcctId': '', 'CertId': '', 'MerPriv': '904169', 'ChkValue': '-101', 'CharSet': 'UTF-8'})
+2020-10-23 11:58:46,579 INFO [root] [test03_trust.py (test03_trust_recharge:68] - 三方充值结果：NetSave OK
+2020-10-23 11:58:46,580 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c9abd68>
+2020-10-23 11:58:46,580 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:58:46,742 INFO [root] [test03_trust.py (test03_trust_recharge:59] - 充值接口返回结果：{'status': 100, 'description': '验证码错误'}
+2020-10-23 11:58:46,743 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c85e2b0>
+2020-10-23 11:58:46,743 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:58:46,882 INFO [root] [tools.py (html_parser:146] - 提取的url为：http://52.83.181.187:8000/muser/publicRequests
+2020-10-23 11:58:47,049 INFO [root] [test04_tender.py (test01_tender:52] - 三方投资结果为：InitiativeTender OK
+2020-10-23 11:58:47,049 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c9c82e8>
+2020-10-23 11:58:47,049 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:58:47,176 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c9ab9b0>
+2020-10-23 11:58:47,176 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:58:47,305 INFO [root] [test04_tender.py (test02_tender_list:63] - 投资列表结果为：{'recover_amount_yes_total': 0, 'isStartTime': 'yes', 'epage': 6, 'recover_amount_total': 0, 'recover_amount_wait_total': 0, 'page': 1, 'total_pages': 1, 'tender_amount_total': 100.0, 'items': [{'recover_status': '-1', 'voucher_amt': '0.00', 'recover_principal_yes': '0.00', 'tenderId': '1472', 'serialno': '202008231111', 'recover_amount': 0, 'recover_count': '0', 'recover_interest_yes': 0, 'transfer_member_name': '', 'cancel_count': '0', 'trust_status': '-2', 'auto_status': '-1', 'id': '1472', 'loan_name': '数据库构造借款1', 'recover_principal': '0.00', 'transfer_member_id': '0', 'ind': '20102311585882466169', 'loan_id': '642', 'member_id': '904169', 'award_interest': 0.0, 'amount': '100.00', 'status_name': '投标中', 'loan_member_id': '869', 'recover_prepayment_fee': '0.00', 'deposit_certificate': '-1', 'loan_member_name': '13099775533', 'transfer_status': '-1', 'member_name': '13600001111', 'recover_overdue_fee': '0.00', 'award_amount': '0.00', 'add_ip': '2130706433', 'recover_interest': '0.00', 'repay_type': '1', 'recover_count_yes': '0', 'add_time': '1603425538', 'recover_amount_yes': '0.00', 'loanId': '642', 'status': '-2'}], 'total_items': 1, 'isCert': '2'}
+2020-10-23 11:58:47,306 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c9c87f0>
+2020-10-23 11:58:47,306 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+2020-10-23 11:58:47,394 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c9c87f0>
+2020-10-23 11:58:47,394 INFO [root] [api_register_login.py (api_register_img_code:26] - 正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/12312334
+2020-10-23 11:58:47,437 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c9c87f0>
+2020-10-23 11:58:47,437 INFO [root] [api_register_login.py (api_phone_code:38] - 正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001115', 'imgVerifyCode': '8888', 'type': 'reg'}
+2020-10-23 11:58:47,487 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c9c87f0>
+2020-10-23 11:58:47,488 INFO [root] [api_register_login.py (api_register:54] - 正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001115', 'password': 'test123456', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2020-10-23 11:58:47,547 INFO [root] [api_register_login.py (__init__:11] - 正在初始化 session对象：<requests.sessions.Session object at 0x10c9c87f0>
+2020-10-23 11:58:47,547 INFO [root] [api_register_login.py (api_login:66] - 正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001115', 'password': 'test123456'}
+2020-10-23 11:58:47,646 INFO [root] [tools.py (html_parser:146] - 提取的url为：http://52.83.181.187:8000/muser/publicRequests
+2020-10-23 11:58:47,793 INFO [root] [test04_tender.py (test03_reg_tender:93] - 业务方法-三方开户结果为：UserRegister OK
+2020-10-23 11:58:47,886 INFO [root] [tools.py (html_parser:146] - 提取的url为：http://52.83.181.187:8000/muser/publicRequests
+2020-10-23 11:58:48,041 INFO [root] [test04_tender.py (test03_reg_tender:102] - 业务方法-三方充值结果为：NetSave OK
+2020-10-23 11:58:48,092 INFO [root] [tools.py (html_parser:146] - 提取的url为：http://52.83.181.187:8000/muser/publicRequests
+2020-10-23 11:58:48,264 INFO [root] [test04_tender.py (test03_reg_tender:109] - 业务方法-三方投资结果为：InitiativeTender OK
