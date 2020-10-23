@@ -4,7 +4,7 @@ import unittest
 import os, sys
 
 sys.path.append(os.getcwd())
-from lib.HTMLTestRunner_HeiMa import HTMLTestRunner
+from HTMLTestRunner_HeiMa import HTMLTestRunner
 
 # 2、定义测试套件
 suite = unittest.defaultTestLoader.discover("./scripts")
