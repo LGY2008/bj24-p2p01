@@ -1,4 +1,3 @@
-# coding:utf-8
 # 1、 导包
 import unittest
 from lib.HTMLTestRunner import HTMLTestRunner
