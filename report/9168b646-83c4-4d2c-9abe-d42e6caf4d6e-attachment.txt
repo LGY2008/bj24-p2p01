@@ -1,0 +1,16 @@
+api_register_login.py       11 INFO     正在初始化 session对象：<requests.sessions.Session object at 0x10d8e1588>
+api_register_login.py       66 INFO     正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
+api_register_login.py       11 INFO     正在初始化 session对象：<requests.sessions.Session object at 0x10d8e1588>
+api_register_login.py       26 INFO     正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/12312334
+api_register_login.py       11 INFO     正在初始化 session对象：<requests.sessions.Session object at 0x10d8e1588>
+api_register_login.py       38 INFO     正在调用注册手机验证码接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001115', 'imgVerifyCode': '8888', 'type': 'reg'}
+api_register_login.py       11 INFO     正在初始化 session对象：<requests.sessions.Session object at 0x10d8e1588>
+api_register_login.py       54 INFO     正在调用注册接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'phone': '13600001115', 'password': 'test123456', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+api_register_login.py       11 INFO     正在初始化 session对象：<requests.sessions.Session object at 0x10d8e1588>
+api_register_login.py       66 INFO     正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001115', 'password': 'test123456'}
+tools.py                   146 INFO     提取的url为：http://52.83.181.187:8000/muser/publicRequests
+test04_tender.py            93 INFO     业务方法-三方开户结果为：UserRegister OK
+tools.py                   146 INFO     提取的url为：http://52.83.181.187:8000/muser/publicRequests
+test04_tender.py           102 INFO     业务方法-三方充值结果为：NetSave OK
+tools.py                   146 INFO     提取的url为：http://52.83.181.187:8000/muser/publicRequests
+test04_tender.py           109 INFO     业务方法-三方投资结果为：InitiativeTender OK

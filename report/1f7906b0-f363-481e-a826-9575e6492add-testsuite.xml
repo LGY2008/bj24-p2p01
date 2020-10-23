@@ -1,0 +1,510 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1603433192739" stop="1603433206649">
+  <name>__init__</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1603433192739" status="passed" stop="1603433193644">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test01_register_login.TestRegisterLogin.test01_reg_img_0_1122320012</name>
+      <attachments>
+        <attachment source="e650c1e0-6b57-46ff-a649-1832d9c282c5-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433193645" status="passed" stop="1603433193742">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test01_register_login.TestRegisterLogin.test01_reg_img_1_0_11223420012</name>
+      <attachments>
+        <attachment source="8af81d5a-d6c8-4894-b949-9a7abb9374c9-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433193743" status="passed" stop="1603433193817">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test01_register_login.TestRegisterLogin.test01_reg_img_2_</name>
+      <attachments>
+        <attachment source="456c57ee-add6-4b1d-90a1-a856f92948d5-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433193818" status="passed" stop="1603433193890">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test01_register_login.TestRegisterLogin.test01_reg_img_3_hellop2p</name>
+      <attachments>
+        <attachment source="3b652fdf-bac6-4dad-8d56-4465e1bc7e46-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433193891" status="passed" stop="1603433194019">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test01_register_login.TestRegisterLogin.test02_reg_phone_0_13600001111</name>
+      <attachments>
+        <attachment source="fd7af5da-398c-4c79-9cf3-7cc2140b8a61-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433194020" status="passed" stop="1603433194141">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test01_register_login.TestRegisterLogin.test02_reg_phone_1_13600001111</name>
+      <attachments>
+        <attachment source="47086b00-d578-46d8-8259-e66a80c9b65f-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433194143" status="passed" stop="1603433194264">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test01_register_login.TestRegisterLogin.test02_reg_phone_2_</name>
+      <attachments>
+        <attachment source="92548494-6dd6-4bc8-9084-7a72d6ee1489-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433194266" status="passed" stop="1603433194393">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test01_register_login.TestRegisterLogin.test02_reg_phone_3_13600001111</name>
+      <attachments>
+        <attachment source="ecb3e749-ab41-4513-b502-4755f464179e-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433194394" status="passed" stop="1603433195584">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test01_register_login.TestRegisterLogin.test03_register_0_13600001111</name>
+      <attachments>
+        <attachment source="86776406-46b5-472a-a2f5-b6fb4929390b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433195586" status="passed" stop="1603433196797">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test01_register_login.TestRegisterLogin.test03_register_1_13600001112</name>
+      <attachments>
+        <attachment source="0efa7789-81c3-4c6c-8721-359ee544353b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433196799" status="passed" stop="1603433197975">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test01_register_login.TestRegisterLogin.test03_register_2_13600001113</name>
+      <attachments>
+        <attachment source="a51cbfaa-1f8b-486c-b472-cc682163722f-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433197976" status="passed" stop="1603433199150">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test01_register_login.TestRegisterLogin.test03_register_3_13600001113</name>
+      <attachments>
+        <attachment source="1f559cf8-a7cb-4173-85d5-16801f23d41f-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433199151" status="passed" stop="1603433200316">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test01_register_login.TestRegisterLogin.test03_register_4_13600001111</name>
+      <attachments>
+        <attachment source="ca1b0056-8022-49bc-840b-8b627fb84ba3-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433200317" status="passed" stop="1603433201513">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test01_register_login.TestRegisterLogin.test03_register_5_13600001113</name>
+      <attachments>
+        <attachment source="5173fd17-7bb3-4078-81a0-f6985b34acd9-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433201514" status="passed" stop="1603433202712">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test01_register_login.TestRegisterLogin.test03_register_6_13600001114</name>
+      <attachments>
+        <attachment source="f682fcda-9624-4418-9d22-5303a9a78c98-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433202713" status="passed" stop="1603433202803">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test01_register_login.TestRegisterLogin.test04_login_0_13600001111</name>
+      <attachments>
+        <attachment source="10f23aa2-6475-4231-962e-0eaac71075eb-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433202804" status="passed" stop="1603433202881">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test01_register_login.TestRegisterLogin.test04_login_1_13600001116</name>
+      <attachments>
+        <attachment source="acc3f78d-1506-4479-b455-5f42d4a09177-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433202882" status="passed" stop="1603433202884">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test01_register_login.TestRegisterLogin.test04_login_2_13600001111</name>
+      <attachments>
+        <attachment source="7291d59e-1bf4-424e-bf6a-dd461f8b15c3-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433202885" status="passed" stop="1603433203006">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test01_register_login.TestRegisterLogin.test05_is_login_0__</name>
+      <attachments>
+        <attachment source="05e45132-008a-40e9-a827-412fbce19811-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433203007" status="passed" stop="1603433203081">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test01_register_login.TestRegisterLogin.test05_is_login_1__</name>
+      <attachments>
+        <attachment source="ecf7f48c-1246-495c-ba97-8425780f410c-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433203083" status="passed" stop="1603433203209">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test02_approve.TestApprove.test01_approve_0__</name>
+      <attachments>
+        <attachment source="3f69a58f-7b7f-4668-aa3e-27dbb84f0638-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433203211" status="passed" stop="1603433203340">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test02_approve.TestApprove.test01_approve_1_</name>
+      <attachments>
+        <attachment source="939fbba9-5df7-4602-8a54-44b66a72f5c6-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433203342" status="passed" stop="1603433203475">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test02_approve.TestApprove.test01_approve_2__</name>
+      <attachments>
+        <attachment source="2d5a03ac-7996-43c9-bba6-065f3a8fac6d-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433203476" status="passed" stop="1603433203603">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test02_approve.TestApprove.test02_get_approve_0_13600001111</name>
+      <attachments>
+        <attachment source="0f02840b-a2bd-4865-bb6a-2d5db9ff94e4-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433203605" status="passed" stop="1603433203730">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test02_approve.TestApprove.test02_get_approve_1_13600001112</name>
+      <attachments>
+        <attachment source="0f7be055-b1f9-4d77-a37f-d9a035693593-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433203731" status="passed" stop="1603433204031">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test03_trust.TestTrust.test01_trust_0_UserRegister_OK</name>
+      <attachments>
+        <attachment source="082b00f8-60d1-4af1-b9c4-4772a9de727f-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433204032" status="passed" stop="1603433204183">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test03_trust.TestTrust.test02_trust_code_0_12312312</name>
+      <attachments>
+        <attachment source="ede19f62-4b99-4f21-8b0e-938c22fa7c87-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433204185" status="passed" stop="1603433204337">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test03_trust.TestTrust.test02_trust_code_1_0_12312312</name>
+      <attachments>
+        <attachment source="45e06ca1-5f08-4de6-a2c8-5851b86bd3ef-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433204338" status="passed" stop="1603433204467">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test03_trust.TestTrust.test02_trust_code_2_</name>
+      <attachments>
+        <attachment source="9cb70153-b487-4fe1-88cd-1381bfad6f74-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433204469" status="passed" stop="1603433204595">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test03_trust.TestTrust.test02_trust_code_3_sdfsdfkwek</name>
+      <attachments>
+        <attachment source="9468a7f6-7cec-45f7-8429-8db921dd0db1-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433204596" status="passed" stop="1603433204928">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test03_trust.TestTrust.test03_trust_recharge_0_100</name>
+      <attachments>
+        <attachment source="fe641905-c267-414f-9236-54fd10abdf63-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433204929" status="passed" stop="1603433205110">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test03_trust.TestTrust.test03_trust_recharge_1_100</name>
+      <attachments>
+        <attachment source="114468b4-52a5-48b9-9261-8a64ecc6efbb-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433205112" status="passed" stop="1603433205427">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test04_tender.TestTender.test01_tender_0_642</name>
+      <attachments>
+        <attachment source="6f854baa-4773-41c4-ae8b-1d9fc4af14d0-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433205429" status="passed" stop="1603433205564">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test04_tender.TestTender.test01_tender_1_642</name>
+      <attachments>
+        <attachment source="0c9e0db2-0101-4618-a9ef-ac858d8730c6-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433205565" status="passed" stop="1603433205703">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test04_tender.TestTender.test02_tender_list_0_642</name>
+      <attachments>
+        <attachment source="e1b72251-5009-4e69-8874-e0f7d6f5744d-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1603433205705" status="passed" stop="1603433206649">
+      <name>.Users.lgy.PycharmProjects.lgy.bj24-p2p.scripts./Users/lgy/PycharmProjects/lgy/bj24-p2p/scripts.test04_tender.TestTender.test03_reg_tender_0</name>
+      <attachments>
+        <attachment source="9168b646-83c4-4d2c-9abe-d42e6caf4d6e-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54283-MainThread"/>
+        <label name="host" value="192.168.0.101"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
