@@ -1,7 +1,0 @@
-test01_register_login.py    22 INFO     正在调用初始化方法
-test01_register_login.py    25 INFO     正在获取session对象 <requests.sessions.Session object at 0x10e1d7eb8>
-api_register_login.py       11 INFO     正在初始化 session对象：<requests.sessions.Session object at 0x10e1d7eb8>
-test01_register_login.py    28 INFO     正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10e20a588>
-api_register_login.py       26 INFO     正在调用注册图片验证码接口 url：http://user-p2p-test.itheima.net/common/public/verifycode1/1122320012
-test01_register_login.py    40 INFO     正在调用 注册图片验证码接口测试方法，响应状态码结果：200
-test01_register_login.py    32 INFO     正在执行关闭session对象

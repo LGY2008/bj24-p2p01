@@ -1,3 +1,0 @@
-api_register_login.py       11 INFO     正在初始化 session对象：<requests.sessions.Session object at 0x10e31bf28>
-api_register_login.py       66 INFO     正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001111', 'password': 'test12345'}
-test02_approve.py           45 INFO     认证查询结果为：{'is_email_open': '-1', 'lastlogin_time': '1603269340', 'group_status': '', 'is_auth_user': '-1', 'is_realname_open': '2', 'is_corp': '-1', 'business_license': '', 'card_id': '110****676', 'realname': '张**', 'isCert': '2', 'realname_card': '1', 'pay_pwd': '', 'phone': '136****1111', 'realname_status': '-2', 'trustType': 'chinapnr', 'pwd': '1', 'email': '', 'is_trust': '-1'}

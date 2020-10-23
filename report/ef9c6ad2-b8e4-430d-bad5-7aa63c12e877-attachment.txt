@@ -1,7 +1,0 @@
-test01_register_login.py    22 INFO     正在调用初始化方法
-test01_register_login.py    25 INFO     正在获取session对象 <requests.sessions.Session object at 0x10e3040f0>
-api_register_login.py       11 INFO     正在初始化 session对象：<requests.sessions.Session object at 0x10e3040f0>
-test01_register_login.py    28 INFO     正在获取ApiRegisterLogin对象 <api.api_register_login.ApiRegisterLogin object at 0x10e304080>
-api_register_login.py       66 INFO     正在调用登录接口 url：http://user-p2p-test.itheima.net/member/public/sendSms 请求参数数据：{'keywords': '13600001116', 'password': 'test12345'}
-test01_register_login.py    97 INFO     正在调用 登录接口测试方法，响应状态码结果：{'status': 100, 'description': '用户不存在'}
-test01_register_login.py    32 INFO     正在执行关闭session对象
